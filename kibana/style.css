@@ -1,0 +1,54 @@
+html {
+	-webkit-filter: invert(100%) !important;
+}
+img,
+iframe,
+frame,
+.chart > svg,
+nav,
+.tab-dashboard.theme-dark {
+	-webkit-filter: invert(100%) !important;
+}
+body {
+	background: #222;
+}
+a,
+a:visited,
+.wizard-vis-type {
+   	color: #957373;
+}
+saved-object-finder .list-group-item a,
+saved-object-finder .list-group-item a i {
+   	color: #957373 !important;
+}
+a:hover {
+ 	color: #886666;
+}
+.discover-field-details a{
+   	color: #957373 !important;
+}
+filter-bar .bar .filter,
+.kbn-timepicker .refresh-interval-active,
+.progress-bar {
+    background-color: #957373;
+}
+filter-bar .bar .filter.negate {
+    background-color: #55BBAF;    
+}
+.discover-field-details .progress .progress-bar span {
+    background-color: #444;
+}
+.discover-field-details {
+    background-color: #ddd;
+}
+.btn-success {
+    background-color: #957373;
+    border-color: #957373;
+}
+.btn-success:hover {
+    background-color: #886666;
+    border-color: #886666;
+}
+.sidebar-container .sidebar-list .sidebar-item-title:hover {
+    background: #ccc;
+}
