@@ -1,29 +1,32 @@
 html {
-  -webkit-filter: invert(100%) !important;
+	-webkit-filter: invert(100%) !important;
 }
 img,
 iframe {
-  -webkit-filter: invert(100%) !important;
+	-webkit-filter: invert(100%) !important;
+}
+#page-body {
+ 	background: #ddd;   
 }
 #header, #breadcrumbBar {
-  background: #fff;
+	background: #fff;
 }
 #main-panel {
-  background: #ddd;
+	background: #ddd;
 }
 #side-panel {
-  background: #ddd;    
+	background: #ddd;    
 }
 a, a:visited, .model-link, a:link {
-  text-decoration: none;
+ 	text-decoration: none;
     color: #957373;
 }
 a:hover, .model-link:hover {
-  border-bottom: 1px solid #ccc;   
+ 	border-bottom: 1px solid #ccc;   
 }
 #header .login a, #header .login a:visited {
-  color: #222;   
+ 	color: #222;   
 }
 .inverse {
-  color: #000;   
+ 	color: #000;   
 }
