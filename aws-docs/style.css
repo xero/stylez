@@ -1,0 +1,30 @@
+/*
+urls on the domain: docs.aws.amazon.com
+*/
+html,img, iframe {
+    -webkit-filter: invert(100%);
+    background: #fff !important;
+    color: #3D3D4F;
+}
+.summary .summary_signature, #filecontents pre.code, .docstring pre.code, .tags pre.example, p.signature, h3.signature {
+	background: #ccc;   
+}
+a {
+   color: #A07878 !important;
+}
+.note.title.constructor, .note.title.readonly {
+   background: #A07878;
+   border-color: #A07878;
+}
+pre .string, pre .tag .value, pre .phpdoc, pre .tex .formula, .docstring p > code, .docstring p > tt, .tags p > code, .tags p > tt, pre .number, pre .hexcolor, pre .ruby .constant {
+    color: #A07878;
+}
+pre.code .comment {
+ 	color: #7878A0;   
+}
+li.clicked > .item {
+ 	background: #333;
+}
+li.even {
+ 	background: #fff;   
+}
