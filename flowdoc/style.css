@@ -72,6 +72,7 @@ textarea {
   background: #222 !important;
   background-color: #222 !important;
   border-color: #111 !important;
+  color: #fff;
 }
 #toolbar {
   background: #222 !important;
@@ -359,4 +360,3 @@ textarea {
 .chat-header-small {
   display: none;   
 }
-
