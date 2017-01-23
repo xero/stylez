@@ -1,0 +1,120 @@
+/*
+urls on the domain: cloud.digitalocean.com
+ */
+body {
+	-webkit-filter: invert(100%);
+ 	background: #111 !important;
+    background-color: #111 !important;    
+}
+img,
+body.droplets.new #new_droplet.react-droplet-create .distro-group .Menu__MenuOption:after,
+body.droplets.new #new_droplet.react-droplet-create #regions .icon {
+  -webkit-filter: invert(100%);
+}
+
+.support-overlay {
+	background: #eee;
+}
+.EmptyState--simple {
+	background: #fff;
+    border: 1px solid #fff;
+}
+.nav_controls .Logo {
+	
+}
+a,
+.nav_controls .navLink:hover, 
+.nav_controls .navLink.current, 
+.nav_controls .navLink.current:focus,
+.domains .show-region-modal,
+body.droplets.new #new_droplet .summary .summary-link, 
+body.droplets.show #new_droplet .summary .summary-link {
+	color: #997755;    
+}
+::selection {
+	background: #997755;
+}
+.Button--blue {
+	background-color: #997755;
+    border: 2px solid #997755;
+}
+.Button--blue:not(.Button--noHover):hover {
+	background-color: #6F4F2E;
+    border: 2px solid #6F4F2E;
+}
+.Button--green {
+	background-color: #8E69EE;
+    border: 2px solid #8E69EE;
+}
+.Button--green:not(.Button--noHover):hover {
+	background-color: #4E29CE;
+    border: 2px solid #4E29CE;    
+}
+.nav_controls .current_user .Menu__MenuOptions .Menu__MenuOption a:hover,
+body.droplets.new #new_droplet .how-many-toggle .increase, body.droplets.new #new_droplet .how-many-toggle .decrease, body.droplets.show #new_droplet .how-many-toggle .increase, body.droplets.show #new_droplet .how-many-toggle .decrease {
+    color: #997755;
+}
+.SideNav li a.is-active, 
+.SideNav li.is-active a,
+body.droplets.new #new_droplet.react-droplet-create #regions .region-geography.selected ul.regions .region-wrapper .region.selected-region {
+    color: #6F4F2E;
+}
+.Tabs>li.is-active>a:before, 
+.Tabs>li.is-active>a:hover:before, 
+.Tabs>li.is-active>a:focus:before,
+.support-overlay .articles li.selected:before,
+.image_selection .images-sidebar .vertical-tabs li.active:before,
+body.droplets.new #new_droplet #distributions .distro.active .distro-button, 
+body.droplets.show #new_droplet #distributions .distro.active .distro-button {
+	background-color: #997755;
+}
+body.droplets.new #new_droplet #distributions .distro.active, 
+body.droplets.show #new_droplet #distributions .distro.active,
+.react-droplet-create .image-option.unbuttonized.selected:not(.disabled),
+body.droplets.new #new_droplet #regions .region-geography.selected, 
+body.droplets.show #new_droplet #regions .region-geography.selected {
+	border-color: #997755;
+    background-color: #997755;
+}
+body.droplets.new #new_droplet #distributions .distro.active .distro-version, 
+body.droplets.show #new_droplet #distributions .distro.active .distro-version,
+body.droplets.new #new_droplet.react-droplet-create #regions .region-geography.selected ul.regions {
+ 	border-top-color: #997755;   
+}
+
+body.droplets.new #new_droplet .sizes-selection .size.selected, 
+body.droplets.new #droplet_scale .sizes-selection .size.selected, 
+body.droplets.show #new_droplet .sizes-selection .size.selected, 
+body.droplets.show #droplet_scale .sizes-selection .size.selected {
+	border-color: #997755;    
+}
+body.droplets.new #new_droplet .sizes-selection .size.selected .pricing, body.droplets.new #droplet_scale .sizes-selection .size.selected .pricing, body.droplets.show #new_droplet .sizes-selection .size.selected .pricing, body.droplets.show #droplet_scale .sizes-selection .size.selected .pricing {
+	border-bottom-color: #997755;
+    background-color: #997755;    
+}
+input[type=checkbox]:focus+span+label, 
+input[type=radio]:focus+span+label,
+input[type=checkbox]:checked+span, 
+input[type=radio]:checked+span {
+    border-color: #997755;
+    color: #997755;    
+}
+body.droplets.new #new_droplet .summary .errors, 
+body.droplets.show #new_droplet .summary .errors {
+    color: #55BBAF;
+	border-color: #55BBAF;
+}
+body.droplets.new #new_droplet.react-droplet-create #regions .region-geography.selected ul.regions .region-wrapper {
+	border-right: 1px solid #997755;   
+}
+body.droplets.new #new_droplet #regions .region-geography.selected .selected-region, 
+body.droplets.show #new_droplet #regions .region-geography.selected .selected-region {
+	background-color: #6F4F2E !important;
+}
+body.droplets.new #new_droplet.react-droplet-create #regions .region-geography.selected ul.regions .region-wrapper .region.selected-region {
+    color: #fff;
+}
+body.droplets.new #new_droplet.react-droplet-create #regions .region-geography ul.regions .region-wrapper .region:hover {
+    background: #997755;
+    color: #fff;
+}
