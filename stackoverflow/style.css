@@ -1,8 +1,12 @@
 /*
 urls on the domain: stackoverflow.com
  */
+
+.so-header, .js-so-header  {
+    background: #111;
+}
 body, #questions div, .qa-block, #content {
-  background:#282828 !important;
+  background:#222 !important;
 }
 
 #footer.categories {
@@ -152,10 +156,31 @@ textarea {
   box-shadow:none !important;
 }
 
+#submit-button {
+  background: #111 !important;
+  color: #c0c0c0 !important;
+  border-color: #333 !important;
+}
+
+#submit-button:hover {
+  background: #333 !important;
+  color: #c0c0c0 !important;
+  border-color: #666 !important;    
+}
+
+.f-input, textarea.f-input, input[type="text"].f-input, input[type="password"].f-input, input[type="number"].f-input, input[type="email"].f-input, input[type="url"].f-input, input[type="search"].f-input, input[type="tel"].f-input, input[type="datetime"].f-input {
+  background: #222 !important;
+  color: #c0c0c0 !important; 
+  border: #111 !important;
+}
+
+.so-header .searchbar>[role="icon"] {
+  color: #c0c0c0 !important;     
+}
 /* code colors */
 
 .post-text {
-  background:#282828 !important;
+  background:#222 !important;
   color:#C0C0C0 !important;
 }
 
