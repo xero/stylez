@@ -365,11 +365,19 @@ ul.filter-list .filter-item.selected {
 .state-open, .state-proposed, .state-reopened {
     background-color: #8E69EE;
 }
-.discussion-item-merged .discussion-item-icon {
+.discussion-item-merged .discussion-item-icon,
+.block-diff-added, .block-diff-neutral {
     background-color: #6f42c1;
 }
-.state-closed {
+.state-closed,
+.block-diff-deleted, .text-red .block-diff-neutral {
     background-color: #20C1C1;    
+}
+.text-green {
+    color: #6f42c1 !important;    
+}
+.text-red {
+    color: #20C1C1 !important;    
 }
 .timeline-comment-wrapper {
  	border: none;   
@@ -679,3 +687,4 @@ dl.form.errored dd.error:after {
     background-color: #ddd;
     border: 0;
 }
+
