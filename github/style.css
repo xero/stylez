@@ -348,6 +348,39 @@ ul.filter-list .filter-item.selected {
 .major {
     color: #3cf3cf;
 }
+.signed-commit-badge.verified,
+.signed-commit-verified-label,
+.signed-commit-header .octicon-verified {
+    color: #8E69EE;
+}
+.signed-commit-badge.verified:hover,
+.branch-action-state-clean .branch-action-body {
+    border-color: #8E69EE;
+}
+.branch-action-state-clean .branch-action-body::before {
+    border-right-color: #8E69EE;
+}
+.branch-action-state-clean .branch-action-icon,
+.completeness-indicator-success,
+.state-open, .state-proposed, .state-reopened {
+    background-color: #8E69EE;
+}
+.discussion-item-merged .discussion-item-icon {
+    background-color: #6f42c1;
+}
+.state-closed {
+    background-color: #20C1C1;    
+}
+.timeline-comment-wrapper {
+ 	border: none;   
+}
+.new-discussion-timeline .closed-banner {
+    border-bottom-color: #eee;
+}
+.discussion-timeline-actions {
+    background-color: #eee;
+    border-top: none;
+}
 .commit-tease,
 .full-commit,
 .commit {
