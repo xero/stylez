@@ -138,6 +138,24 @@ h3,
 .repo-filterer .repo-filter:hover {
     border-bottom: 2px solid #999;
 }
+.reponav-item.selected {
+    border-top-color: #7878A0;
+}
+.underline-nav-item.selected {
+    border-bottom-color: #7878A0;    
+}
+.ajax-pagination-form .ajax-pagination-btn,
+.numbers-summary a:hover {
+    color: #7878A0;    
+}
+.subnav-item.selected, 
+.subnav-item.selected:hover, 
+.subnav-item.selected:focus,
+.pagination .current, 
+.pagination .current:hover {
+    background-color: #7878A0;    
+    border-color: #7878A0;        
+}
 ul.filter-list .filter-item {
     color: #444;
 }
@@ -157,6 +175,12 @@ ul.filter-list .filter-item.selected {
 }
 .commit-ref .user {
     color: #000;
+}
+.full-commit p.commit-title {
+    color: #111;
+}
+.btn-link {
+    color: #7878A0;
 }
 .feed-icon a {
     background: #d8d7dd;
@@ -227,11 +251,54 @@ ul.filter-list .filter-item.selected {
 .repo-list-item .repo-icon {
     color: #666;
 }
-.text-diff-added {
+.text-diff-added,
+.cadd,
+.a,
+.authors-and-code .insertions,
+.summary-stats li .octicon-git-branch,
+.summary-stats li .octicon-issue-opened{
     color: #aa5acd;
 }
-.text-diff-deleted {
+.code-frequency .addition,
+g.active rect,
+.contributors-graph .capped-card path {
+    fill: #aa5acd;    
+}
+.text-diff-deleted,
+.cdel,
+.d,
+.authors-and-code .deletions,
+.summary-stats li .octicon-issue-closed {
     color: #42d3ff;
+}
+.graphs .dot,
+g.mini,
+.graphs .area {
+    fill: #7878A0;
+}
+.graphs .path,
+.graphs .dot {
+    stroke: #7878A0;    
+}
+.octofication .message {
+ 	border-color: #7878A0;
+}
+.site-footer .octicon-mark-github,
+.octofication .broadcast-icon,
+.site-header .site-header-link {
+    color: #7878A0;   
+}
+.boxed-group .counter {
+    background-color: #7878A0;       
+}
+.code-frequency .deletion {
+    fill: #42d3ff;    
+}
+.network .current-repository {
+ 	background: #ddd;   
+}
+.network .network-tree {
+    -webkit-filter: invert(0%);    
 }
 .code-list .private .bubble {
     border: none;
@@ -687,4 +754,3 @@ dl.form.errored dd.error:after {
     background-color: #ddd;
     border: 0;
 }
-
