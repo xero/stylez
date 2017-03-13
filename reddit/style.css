@@ -1,7 +1,34 @@
 /*
 urls on the domain: reddit.com
-requires: RES nightmode (http://redditenhancementsuite.com)
 */
+::-webkit-scrollbar{
+    width: 13px;
+}
+::-webkit-scrollbar-button:vertical:increment {
+    background-color:#333;
+}
+::-webkit-scrollbar-button:vertical:increment:hover {
+    background-color:#666;
+}
+::-webkit-scrollbar-button:vertical:decrement {
+    background-color:#111;
+}
+::-webkit-scrollbar-button:vertical:decrement:hover {
+    background-color:#666;
+} 
+::-webkit-scrollbar-thumb{
+    background-color:#111;
+    border-radius: 0;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:#333;
+}
+::-webkit-scrollbar-track{
+    background-color:#333;
+}
+::-webkit-scrollbar-corner { 
+    background-color:#333; 
+}
 body,
 .res-nightmode body {
     background: #222;
@@ -97,4 +124,11 @@ body.mod-toolbox .tb-bracket-button:hover {
 .res-nightmode .RES-keyNav-activeElement,
 .res-nightmode .RES-keyNav-activeElement .md-container {
     background: #272822 !important;
+}
+.mod-toolbox.res-nightmode #tb-bottombar {
+	background-color: #333;
+    border-color: #333;
+}
+body.mod-toolbox .tb-toolbar a {
+    color: #68a;
 }
