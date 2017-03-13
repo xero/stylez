@@ -1,7 +1,7 @@
 /*
 urls on the domain: github.com
 urls on the domain: githubusercontent.com
- */
+*/
 
 html {
     -webkit-filter: invert(100%);
@@ -11,7 +11,7 @@ iframe {
     -webkit-filter: invert(100%);
 }
 body {
-	background: #111 !important;   
+	background: #111 !important;
 }
 .blob-wrapper ::-webkit-scrollbar{
     width: 13px;
@@ -418,11 +418,11 @@ g.mini,
 .signed-commit-badge.verified,
 .signed-commit-verified-label,
 .signed-commit-header .octicon-verified {
-    color: #8E69EE;
+    color: #7878A0;
 }
 .signed-commit-badge.verified:hover,
 .branch-action-state-clean .branch-action-body {
-    border-color: #8E69EE;
+    border-color: #7878A0;
 }
 .branch-action-state-clean .branch-action-body::before {
     border-right-color: #8E69EE;
