@@ -11,7 +11,7 @@ iframe {
     -webkit-filter: invert(100%);
 }
 body {
-	background: #111 !important;
+	background: #111 !important;   
 }
 .blob-wrapper ::-webkit-scrollbar{
     width: 13px;
@@ -743,6 +743,13 @@ dl.form.errored dd.error:after {
 	background: #ddd;
     border-color: #ccc;
     color: #666;
+}
+.qr-code-table {
+ 	background: #000;   
+}
+.qr-code-table .black, .qr-code-table .white
+{
+    -webkit-filter: invert(100%) !important;
 }
 /**
  * monokai syntax highlighter style edited from:
