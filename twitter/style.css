@@ -1287,3 +1287,25 @@ a,
  .stream-item-activity-notification .latest-tweet .tweet-row a:focus s {
     color: #528B8B;
 }
+.DashUserDropdown.dropdown-menu li>a, .DashUserDropdown.dropdown-menu button {
+	color: #528B8B;
+}
+.ProfileHeading .NotificationsHeadingContent {
+	background: #000;
+    border: none;
+}
+.ActivityItem,
+.wtf-module .UserSmallListItem {
+    border-color: #444;    
+}
+.EdgeButton--secondary {
+ 	background-color: #222;   
+    border-color: #333;
+}
+.EdgeButton--secondary:hover {
+ 	background-color: #666;   
+    border-color: #777;    
+}
+.EdgeButton--secondary, .EdgeButton--secondary:hover, .EdgeButton--secondary:focus, .EdgeButton--secondary:active {
+  	color: #c1c1c1;  
+}
