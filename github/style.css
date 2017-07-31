@@ -1,7 +1,7 @@
 /*
 urls on the domain: github.com
 urls on the domain: githubusercontent.com
-*/
+ */
 
 html {
     -webkit-filter: invert(100%);
@@ -751,6 +751,22 @@ dl.form.errored dd.error:after {
 {
     -webkit-filter: invert(100%) !important;
 }
+
+.dropdown-caret {
+    background-color: #000;
+	border-right-color: #fff;   
+    border-left-color: #fff;
+    border-bottom-color: #fff;
+}
+#user-links > li:nth-child(1) > a > svg > path,
+#user-links > li.dropdown.js-menu-container.js-transitionable > a > svg > path {
+	fill: #666;
+}
+#user-links > li:nth-child(1) > a > svg > path:hover,
+#user-links > li.dropdown.js-menu-container.js-transitionable > a > svg > path:hover{
+	fill: #222;
+}
+
 /**
  * monokai syntax highlighter style edited from:
  * https://github.com/richleland/pygments-css/blob/master/monokai.css
