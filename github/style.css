@@ -72,29 +72,29 @@ a:hover,
 #footer .inner .links a:hover {
     color: #957373;
 }
-.header {
-    background: #fff;
+.Header {
+    background-color: #fff;
 }
-.header .header-nav-link,
-.header .header-logo-wordmark, 
-.header .header-logo-invertocat {
+.Header .header-nav-link,
+.Header .header-logo-wordmark, 
+.Header .header-logo-invertocat {
  	color: #222;   
 }
-.header .header-nav-link:hover {
+.Header .header-nav-link:hover {
  	color: #111;       
 }
-.header .header-search-wrapper {
+.Header .header-search-wrapper {
  	background-color: #ddd; 
     color: #000;
 }
-.header .header-search-wrapper.focus,
-.header .header-search-wrapper.focus .header-search-scope {
+.Header .header-search-wrapper.focus,
+.Header .header-search-wrapper.focus .header-search-scope {
  	background-color: #ccc; 
     color: #000;
     border-right-color: #eee;
 }
-.header .header-search-scope, 
-.header .header-search-scope.focus {
+.Header .header-search-scope, 
+.Header .header-search-scope.focus {
     color: #222;    
     border-right-color: #eee;
 }
