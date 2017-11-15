@@ -1,6 +1,78 @@
 /*
 urls on the domain app.plex.tv
 */
-.plex-pass-btn {
-    display: none !important;
+body {
+ 	color: #ccc;   
+}
+.nav-bar,
+#content > div > div.page-container.ReactSidebarPageView-pageContainer-1Qu7Q > div > div.PrePlayPageContent-prePlayPageContentContainer-1ckaM.PageContent-pageContent-16mK6 > div.PrePlayPageContent-prePlayPageContent-1fFCH.Scroller-scroller-d5-b-.Scroller-vertical-1bgGS > div > div > div.PrePlayMetadataContent-content-2ww3j > div.Measure-container-2XznZ > div:nth-child(3) > div > div > div,
+#content > div > div.page-container.ReactSidebarPageView-pageContainer-1Qu7Q > div > div.PrePlayPageContent-prePlayPageContentContainer-1ckaM.PageContent-pageContent-16mK6 > div.PrePlayPageContent-prePlayPageContent-1fFCH.Scroller-scroller-d5-b-.Scroller-vertical-1bgGS > div > div > div.PrePlayMetadataContent-content-2ww3j > div.Measure-container-2XznZ > div:nth-child(3) > div > button,
+#content > div > div.page-container.ReactSidebarPageView-pageContainer-1Qu7Q > div > div.PrePlayPageContent-prePlayPageContentContainer-1ckaM.PageContent-pageContent-16mK6 > div.PrePlayPageContent-prePlayPageContent-1fFCH.Scroller-scroller-d5-b-.Scroller-vertical-1bgGS > div > div > div.PrePlayMetadataContent-content-2ww3j > div.PrePlayPopularTracks-popularTracksHubCell-Q0N9b.HubCell-hubCell-3Ys17,
+.PrePlayTertiaryTitle-tertiaryTitle-1Rc92,
+.PrePlayRatingRightTitle-ratingRightTitle-1d4Yy {
+    display: none;
+}
+#content > div > div.page-container.ReactSidebarPageView-pageContainer-1Qu7Q > div > div.PrePlayPageContent-prePlayPageContentContainer-1ckaM.PageContent-pageContent-16mK6 > div.PrePlayPageContent-prePlayPageContent-1fFCH.Scroller-scroller-d5-b-.Scroller-vertical-1bgGS > div > div > div.PrePlayMetadataContent-content-2ww3j > div.PrePlayMetadataInnerContent-innerContent-1BPzw {
+    border-top: 2px solid rgba(0,0,0,.3);
+}
+.Measure-container-2XznZ {
+    margin-bottom: -90px;
+}
+.sidebar-container {
+    width: 170px;
+}
+.ReactSidebarPageView-pageContainer-1Qu7Q {
+ 	margin-left: 170px;   
+}
+#plex > div.background-container > div > div > div:nth-child(1) > div,
+#plex > div.AudioVideoPlayerView-container-kWiFs > div > div.AudioVideoFullPlayer-fullPlayer-3bJyO.AudioVideoFullPlayer-isPlayQueueVisible-1caox > div.FullPlayerBackground-backgroundContainer-2UnXo > div > div:nth-child(1) > div {
+ 	background: #222 !important;    
+}
+.ServerMenuButton-serverMenuFriendlyName-hzYb1 {
+    color: #87875f;
+    text-indent: -9999px;
+ 	line-height: 0;
+}
+.ServerMenuButton-serverMenuFriendlyNameContainer-SDbme:after {
+    color: #87875f;
+    content: "server";
+}
+.DisclosureArrow-isSelected-VMAVr {
+    border-color: #87875f;    
+}
+.btn-gray.selected,
+.edit-section-modal .wizard-blocks-group>.wizard-block.selected, .edit-section-modal .wizard-blocks-group>.wizard-block.selected:hover,
+.IconButton-isActive-1C0VU {
+    text-decoration-color: #87875f;
+    color: #87875f;    
+}
+.btn-primary.disabled, .btn-primary.disabled.active, .btn-primary.disabled:active, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled], .btn-primary[disabled].active, .btn-primary[disabled]:active, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary.active, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+    background-color: #75755c;
+}
+.striped-list-item>.striped-list-inner-item>.selected, .striped-list-item>a.selected {
+    border-left-color: #87875f;
+}
+.btn-primary,
+.EqualizerIcon-bar-1nPot {
+    background-color: #87875f !important;
+}
+.btn-primary:hover {
+    background-color: #91915f;
+}
+.modal-title,
+.AudioVideoFullPlayerContentHeading-heading-1XO9q,
+.PrePlayLeftTitle-leftTitle-Ev1KG,
+.Measure-container-2XznZ {
+ 	color: #ccc;   
+}
+.ServerMenuIcon-secureIcon-Xrgxg {
+ 	display: none;   
+}
+a, a:visited {
+    color: #68A;
+}
+#plex > div.AudioVideoPlayerView-container-kWiFs > div > div.MiniPlayerContainer-miniPlayer-3qFgJ > div > div:nth-child(2) > div > div.SeekBar-seekBarTrack-3Gu5R.Slider-track-28JOS > div,
+.Slider-fill-35GFq,
+.MetadataPosterCardOverlay-unwatchedBadge-Qn1fv, .MetadataPosterCardOverlay-badge-1FU-p {
+    background-color: #68A;
 }
