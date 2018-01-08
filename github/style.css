@@ -3,6 +3,11 @@ urls on the domain: github.com
 urls on the domain: githubusercontent.com
  */
 
+/*
+urls on the domain: github.com
+urls on the domain: githubusercontent.com
+ */
+
 html {
     -webkit-filter: invert(100%);
 }
@@ -106,6 +111,9 @@ h3,
 .top-nav>li>a:hover {
     color: #957373;
 }
+.user-nav .HeaderNavlink {
+    color: #999;
+}
 .dashboard-tabs a {
     color: #444;
 }
@@ -140,6 +148,7 @@ h3,
 }
 .reponav-item.selected {
     border-top-color: #7878A0;
+    background-color: #eee;
 }
 .underline-nav-item.selected {
     border-bottom-color: #7878A0;    
