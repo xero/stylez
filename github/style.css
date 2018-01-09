@@ -106,8 +106,12 @@ h3,
 .top-nav>li>a:hover {
     color: #957373;
 }
-.user-nav .HeaderNavlink {
+.HeaderNavlink {
     color: #999;
+}
+.HeaderNavlink:hover, 
+.HeaderNavlink:focus {
+    color: #666;    
 }
 .dashboard-tabs a {
     color: #444;
