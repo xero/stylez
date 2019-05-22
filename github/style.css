@@ -2,7 +2,6 @@
 urls on the domain: github.com
 urls on the domain: githubusercontent.com
  */
-
 html {
     -webkit-filter: invert(100%);
 }
@@ -11,58 +10,74 @@ iframe {
     -webkit-filter: invert(100%);
 }
 body {
-	background: #111 !important;   
+    background: #111 !important;
 }
-.blob-wrapper ::-webkit-scrollbar{
-    width: 13px;
-}
-.blob-wrapper ::-webkit-scrollbar-button:vertical:increment {
-    background-color:#eee;
-}
-.blob-wrapper ::-webkit-scrollbar-button:vertical:increment:hover {
-    background-color:#999;
-}
-.blob-wrapper ::-webkit-scrollbar-button:vertical:decrement {
-    background-color:#ddd;
-}
-.blob-wrapper ::-webkit-scrollbar-button:vertical:decrement:hover {
-    background-color:#999;
-} 
-.blob-wrapper ::-webkit-scrollbar-thumb{
-    background-color:#ddd;
-    border-radius: 0;
-}
-.blob-wrapper ::-webkit-scrollbar-thumb:hover{
-    background-color:#eee;
-}
-.blob-wrapper ::-webkit-scrollbar-track{
-    background-color:#eee;
-}
-::-webkit-scrollbar{
-    width: 13px;
+::-webkit-scrollbar {
+    width: 10px;
 }
 ::-webkit-scrollbar-button:vertical:increment {
-    background-color:#111;
+    background-color: #111;
 }
 ::-webkit-scrollbar-button:vertical:increment:hover {
-    background-color:#666;
+    background-color: #666;
 }
 ::-webkit-scrollbar-button:vertical:decrement {
-    background-color:#222;
+    background-color: #222;
 }
 ::-webkit-scrollbar-button:vertical:decrement:hover {
-    background-color:#666;
-} 
-::-webkit-scrollbar-thumb{
-    background-color:#222;
+    background-color: #666;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #222;
     border-radius: 0;
 }
-::-webkit-scrollbar-thumb:hover{
-    background-color:#111;
+::-webkit-scrollbar-thumb:hover {
+    background-color: #111;
 }
-::-webkit-scrollbar-track{
-    background-color:#111;
+::-webkit-scrollbar-track {
+    background-color: #111;
 }
+::-webkit-scrollbar-corner {
+    background-color: #111;
+}
+.blob-wrapper::-webkit-scrollbar {
+    width: 13px;
+}
+.blob-wrapper::-webkit-scrollbar-button:vertical:increment {
+    background-color: #eee;
+}
+.blob-wrapper::-webkit-scrollbar-button:vertical:increment:hover {
+    background-color: #999;
+}
+.blob-wrapper::-webkit-scrollbar-button:vertical:decrement {
+    background-color: #ddd;
+}
+.blob-wrapper::-webkit-scrollbar-button:vertical:decrement:hover {
+    background-color: #999;
+}
+.blob-wrapper::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+    border-radius: 0;
+}
+.blob-wrapper::-webkit-scrollbar-thumb:hover {
+    background-color: #eee;
+}
+.blob-wrapper::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+.dashboard-sidebar::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+.dashboard-sidebar::-webkit-scrollbar-thumb {
+    background-color: #ddd;
+}
+.dashboard-sidebar::-webkit-scrollbar-button:vertical:increment {
+    background-color: #ddd;
+}
+.dashboard-sidebar::-webkit-scrollbar-button:vertical:decrement {
+    background-color: #ddd;
+}
+
 a,
 a:visited,
 #footer .inner .links a {
@@ -72,46 +87,28 @@ a:hover,
 #footer .inner .links a:hover {
     color: #957373;
 }
-.Header {
-    background-color: #fff;
+.Header,
+.Header-old {
+    background: #ddd;
 }
-.Header .header-nav-link,
-.Header .header-logo-wordmark, 
-.Header .header-logo-invertocat {
- 	color: #222;   
+.header-search-input,
+.header-search-wrapper {
+    background: #fff;
 }
-.Header .header-nav-link:hover {
- 	color: #111;       
-}
-.Header .header-search-wrapper {
- 	background-color: #ddd; 
-    color: #000;
-}
-.Header .header-search-wrapper.focus,
-.Header .header-search-wrapper.focus .header-search-scope {
- 	background-color: #ccc; 
-    color: #000;
-    border-right-color: #eee;
-}
-.Header .header-search-scope, 
-.Header .header-search-scope.focus {
-    color: #222;    
-    border-right-color: #eee;
-}
-.top-nav>li>a,
+.top-nav > li > a,
 h3,
 .markdown-format h3 {
     color: #444;
 }
-.top-nav>li>a:hover {
+.top-nav > li > a:hover {
     color: #957373;
 }
 .HeaderNavlink {
     color: #999;
 }
-.HeaderNavlink:hover, 
+.HeaderNavlink:hover,
 .HeaderNavlink:focus {
-    color: #666;    
+    color: #666;
 }
 .dashboard-tabs a {
     color: #444;
@@ -150,19 +147,19 @@ h3,
     background-color: #eee;
 }
 .underline-nav-item.selected {
-    border-bottom-color: #7878A0;    
+    border-bottom-color: #7878A0;
 }
 .ajax-pagination-form .ajax-pagination-btn,
 .numbers-summary a:hover {
-    color: #7878A0;    
+    color: #7878A0;
 }
-.subnav-item.selected, 
-.subnav-item.selected:hover, 
+.subnav-item.selected,
+.subnav-item.selected:hover,
 .subnav-item.selected:focus,
-.pagination .current, 
+.pagination .current,
 .pagination .current:hover {
-    background-color: #7878A0;    
-    border-color: #7878A0;        
+    background-color: #7878A0;
+    border-color: #7878A0;
 }
 ul.filter-list .filter-item {
     color: #444;
@@ -230,22 +227,22 @@ ul.filter-list .filter-item.selected {
 .repo-filterer .repo-filter {
     color: #000;
 }
-.simple-conversation-list>li .state-open,
+.simple-conversation-list > li .state-open,
 .gh-header-status.open,
 .discussion-item-open .discussion-item-icon {
     background-color: #9339bb;
 }
-.simple-conversation-list>li .state-merged,
+.simple-conversation-list > li .state-merged,
 .gh-header-status.merged,
 .discussion-item-merged .discussion-item-icon {
     background-color: #91ab6b;
 }
-.simple-conversation-list>li .state-closed,
+.simple-conversation-list > li .state-closed,
 .gh-header-status.closed,
 .discussion-item-closed .discussion-item-icon {
     background-color: #42d3ff;
 }
-.simple-conversation-list>li .state-published,
+.simple-conversation-list > li .state-published,
 .gh-header-status.published,
 .discussion-item-published .discussion-item-icon {
     background-color: #9339bb;
@@ -264,13 +261,13 @@ ul.filter-list .filter-item.selected {
 .a,
 .authors-and-code .insertions,
 .summary-stats li .octicon-git-branch,
-.summary-stats li .octicon-issue-opened{
+.summary-stats li .octicon-issue-opened {
     color: #aa5acd;
 }
 .code-frequency .addition,
 g.active rect,
 .contributors-graph .capped-card path {
-    fill: #aa5acd;    
+    fill: #aa5acd;
 }
 .text-diff-deleted,
 .cdel,
@@ -286,27 +283,27 @@ g.mini,
 }
 .graphs .path,
 .graphs .dot {
-    stroke: #7878A0;    
+    stroke: #7878A0;
 }
 .octofication .message {
- 	border-color: #7878A0;
+    border-color: #7878A0;
 }
 .site-footer .octicon-mark-github,
 .octofication .broadcast-icon,
 .site-header .site-header-link {
-    color: #7878A0;   
+    color: #7878A0;
 }
 .boxed-group .counter {
-    background-color: #7878A0;       
+    background-color: #7878A0;
 }
 .code-frequency .deletion {
-    fill: #42d3ff;    
+    fill: #42d3ff;
 }
 .network .current-repository {
- 	background: #ddd;   
+    background: #ddd;
 }
 .network .network-tree {
-    -webkit-filter: invert(0%);    
+    -webkit-filter: invert(0%);
 }
 .code-list .private .bubble {
     border: none;
@@ -437,25 +434,48 @@ g.mini,
 }
 .branch-action-state-clean .branch-action-icon,
 .completeness-indicator-success,
-.state-open, .state-proposed, .state-reopened {
+.state-open,
+.state-proposed,
+.state-reopened {
     background-color: #8E69EE;
 }
 .discussion-item-merged .discussion-item-icon,
-.block-diff-added, .block-diff-neutral {
+.block-diff-added,
+.block-diff-neutral {
     background-color: #6f42c1;
 }
 .state-closed,
-.block-diff-deleted, .text-red .block-diff-neutral {
-    background-color: #20C1C1;    
+.block-diff-deleted,
+.text-red .block-diff-neutral {
+    background-color: #20C1C1;
+}
+.blob-code-addition {
+    background-color: #CFBFEA;
+}
+.file-diff-split .blob-code + .blob-num {
+    border-color: #CFBFEA;
+}
+.blob-num-addition {
+    background-color: #9F7FD5;
+    border-color: #CFBFEA;
+    color: #fff;
+}
+.blob-code-deletion {
+    background-color: #BFE5E1;
+}
+.blob-num-deletion {
+    background-color: #7FCBC3;
+    border-color: #BFE5E1;
+    color: #fff;
 }
 .text-green {
-    color: #6f42c1 !important;    
+    color: #6f42c1 !important;
 }
 .text-red {
-    color: #20C1C1 !important;    
+    color: #20C1C1 !important;
 }
 .timeline-comment-wrapper {
- 	border: none;   
+    border: none;
 }
 .new-discussion-timeline .closed-banner {
     border-bottom-color: #eee;
@@ -505,14 +525,14 @@ h3.commit-group-heading {
     color: #111;
     background: transparent;
 }
-.gobutton>.sha .octicon {
+.gobutton > .sha .octicon {
     border-color: #957373;
     color: #111;
 }
-.gobutton:hover>.sha .octicon {
+.gobutton:hover > .sha .octicon {
     border-color: #111;
 }
-.boxed-group.dangerzone>h3 {
+.boxed-group.dangerzone > h3 {
     background-color: #20C1C1;
     background-image: -moz-linear-gradient(#068E8E, #20C1C1);
     background-image: -webkit-linear-gradient(#068E8E, #20C1C1);
@@ -563,30 +583,30 @@ h3.commit-group-heading {
 }
 .btn-primary {
     color: #ddd !important;
-    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
     background-color: #6F4F2E;
     background-image: -webkit-linear-gradient(#997755, #6F4F2E);
     background-image: linear-gradient(#997755, #6F4F2E);
-    border-color: #997755 !important;    
+    border-color: #997755 !important;
 }
 .btn-primary:hover {
     color: #ddd !important;
-    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
     background-color: #997755;
     background-image: -webkit-linear-gradient(#6F4F2E, #997755);
     background-image: linear-gradient(#6F4F2E, #997755);
-    border-color: #997755 !important;    
+    border-color: #997755 !important;
 }
-.btn-primary:disabled, 
-.btn-primary:disabled:hover, 
-.btn-primary.disabled, 
+.btn-primary:disabled,
+.btn-primary:disabled:hover,
+.btn-primary.disabled,
 .btn-primary.disabled:hover {
     color: #333 !important;
-    text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15);
     background-color: #765D44;
     background-image: -webkit-linear-gradient(#333, #765D44);
     background-image: linear-gradient(#333, #765D44);
-    border-color: #765D44 !important;        
+    border-color: #765D44 !important;
 }
 .minibutton:hover {
     background: #957373;
@@ -600,20 +620,20 @@ h3.commit-group-heading {
 }
 .private,
 .mini-repo-list-item {
-    background-color: #fff !important;    
+    background-color: #fff !important;
 }
 .private .mini-repo-list-item .repo-icon {
     color: #aaa;
 }
 .more-repos-link,
 .js-more-repos-link {
-	color: #666;
+    color: #666;
 }
 .more-repos-link:hover,
 .js-more-repos-link:hover,
 .reponame-suggestion,
-.js-reponame-suggestion{
-	color: #957373;
+.js-reponame-suggestion {
+    color: #957373;
 }
 .flash {
     color: #666;
@@ -715,7 +735,7 @@ a.select-menu-item-text,
 a.css-truncate-target {
     text-shadow: 2px 2px #fff;
 }
-dl.form.errored>dt label {
+dl.form.errored > dt label {
     color: #00C5D7;
 }
 dl.form.warn dd.warning,
@@ -730,8 +750,8 @@ dl.form.errored dd.error:after {
     border-bottom-color: #13CACC;
 }
 
-.dropdown-menu>li>a:hover,
-.dropdown-menu>li>a.zeroclipboard-is-hover {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a.zeroclipboard-is-hover {
     background: #967373;
     color: #ffffff;
 }
@@ -743,43 +763,54 @@ dl.form.errored dd.error:after {
     border: 0;
     line-height: 16px;
 }
-.markdown-body code, 
+.markdown-body code,
 .markdown-body tt {
-	background: #ddd;
+    background: #ddd;
 }
 .markdown-format a code {
-	background: #ddd;
+    background: #ddd;
     border-color: #ccc;
     color: #666;
 }
 .qr-code-table {
- 	background: #000;   
+    background: #000;
 }
-.qr-code-table .black, .qr-code-table .white
-{
+.qr-code-table .black,
+.qr-code-table .white {
     -webkit-filter: invert(100%) !important;
 }
 
 .dropdown-caret {
     background-color: #000;
-	border-right-color: #fff;   
+    border-right-color: #fff;
     border-left-color: #fff;
     border-bottom-color: #fff;
 }
 #user-links > li:nth-child(1) > a > svg > path,
 #user-links > li.dropdown.js-menu-container.js-transitionable > a > svg > path {
-	fill: #666;
+    fill: #666;
 }
 #user-links > li:nth-child(1) > a > svg > path:hover,
-#user-links > li.dropdown.js-menu-container.js-transitionable > a > svg > path:hover{
-	fill: #222;
+#user-links > li.dropdown.js-menu-container.js-transitionable > a > svg > path:hover {
+    fill: #222;
+}
+.avatar-before-user-status {
+    border-color: #333;
+}
+.Header-link {
+    color: #606060 !important;
+}
+.team-left-column form.js-notice-dismiss {
+    background: #e0e0e0 !important;
+}
+.team-left-column form.js-notice-dismiss div {
+    color: #666;
 }
 
 /**
  * monokai syntax highlighter style edited from:
  * https://github.com/richleland/pygments-css/blob/master/monokai.css
  */
-
 .highlight,
 .highlight .hll {
     background-color: #ddd;
