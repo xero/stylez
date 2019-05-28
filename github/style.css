@@ -137,7 +137,15 @@ h3,
 }
 .repo-filterer .repo-filter.filter-selected,
 .pagehead-nav-item.selected {
-    border-bottom: 2px solid #957373;
+    border-bottom: 2px solid #7878A0;
+}
+.pagehead-tabs-item.selected {
+    border-top: 2px solid #7878A0;
+    background: #eee;
+}
+.repo-list h3 a:hover {
+    text-decoration: none;
+    color: #7878A0;
 }
 .repo-filterer .repo-filter:hover {
     border-bottom: 2px solid #999;
@@ -146,7 +154,8 @@ h3,
     border-top-color: #7878A0;
     background-color: #eee;
 }
-.underline-nav-item.selected {
+.underline-nav-item.selected,
+.UnderlineNav-item.selected {
     border-bottom-color: #7878A0;
 }
 .ajax-pagination-form .ajax-pagination-btn,
@@ -160,6 +169,16 @@ h3,
 .pagination .current:hover {
     background-color: #7878A0;
     border-color: #7878A0;
+}
+.profile-timeline-year-list,
+.js-profile-timeline-year-list {
+    background-color: transparent !important;
+}
+ul.filter-list .filter-item {
+    border-radius: 0px;
+}
+ul.filter-list {
+    background: #fff;
 }
 ul.filter-list .filter-item {
     color: #444;
