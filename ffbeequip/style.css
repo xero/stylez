@@ -1,0 +1,134 @@
+/*
+urls on the domain: ffbeequip.com
+*/
+body {
+	background: #2E3440;
+    color: #D8DEE9;
+}
+a {
+    color: #5e81ac;
+}
+a:hover, a:visited {
+    color: #88C0D0;
+}
+::-webkit-scrollbar {
+    background: #2E3440;
+    border: 0;
+	border-radius: 0;
+}
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+	background: #2E3440;
+	border: 0;
+	border-radius: 0;
+}
+::-webkit-scrollbar-thumb {
+    background: #3B4252;
+	border-radius: 0;
+}
+.navigationMenu .desktop a.active {
+    color: #eee;
+}
+.navigationMenu .desktop a {
+    background-color: #5e81ac;
+    color: #c0c0c0;
+    border: none;
+}
+.nav-tabs>li.active>a {
+    background-color: #5e81ac;
+    color: #c0c0c0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #5e81ac;
+    color: #c0c0c0;
+    border-color: #434C5E;
+}
+.building #buildButton, .building #buildResult .wikiLink, .building #conciseViewLink a, .building #detailedViewLink a, .building #unitLink, .building .footerButtons a {
+    box-shadow: none;
+    background: none;
+    color: #88C0D0;
+}
+.result-tab-pane,
+.nav-tabs,
+.items .tbody .tr .td, .results {
+    border-color: #434C5E;
+}
+.conciseView .buildLine {
+    border-color: #434C5E;
+}
+.panel-default>.panel-heading {
+    border-color: #4C566A;
+}
+input {
+    background-color: #4C566A;
+    border-style: none;
+    padding: 3px;
+}
+.select2-container--bootstrap.select2-container--focus .select2-selection, .select2-container--bootstrap.select2-container--open .select2-selection {
+    box-shadow: none;
+    border-color: #434C5E;
+}
+.select2-container--bootstrap .select2-dropdown {
+    border-color: #434C5E;
+}
+.select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
+    color: #c0c0c0;
+}
+.panel-default>.panel-heading {
+    color: #c0c0c0;
+}
+.select2-container--bootstrap .select2-results__option[aria-selected=true] {
+    background: #5e81ac;
+}
+#inventoryDiv button.inventoryStatus {
+    background-color: #4C566A !important;
+    border: none;
+}
+#inventoryDiv button,
+.select2-results__option {
+    background-color: #4C566A;
+}
+.select2-container--bootstrap .select2-results__option--highlighted[aria-selected] {
+    background: #5e81ac;
+}
+.select2-container--bootstrap .select2-selection,
+.btn-default,
+.select2-container--bootstrap .select2-search--dropdown .select2-search__field,
+select,
+.form-control {
+    border-color: #2E3440;
+    background: #434C5E;
+    color: #c0c0c0;
+    box-shadow: none;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control,
+.input-group-addon {
+    border-color: #2E3440;
+    background-color: #2A303B;
+}
+.panel-default {
+    border-color: #434C5E;
+    background-color: #2E3440;
+}
+.panel-default>.panel-heading {
+    background-color: #2E3440;
+}
+.progressBarDiv {
+    background-color: #4C566A;
+}
+.progressBar {
+    background-color: #5e81ac;
+}
+.item .enhancements {
+    color:  #5e81ac;
+}
+.sideBarButton {
+    display: none;
+}
+#scrollToTopButton {
+    background: none;
+    display: none;
+}
+#scrollToTopButton span {
+    border: none;
+}
