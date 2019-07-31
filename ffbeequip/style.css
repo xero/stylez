@@ -1,19 +1,20 @@
 /*
 urls on the domain: ffbeequip.com
-*/
+ */
 body {
 	background: #2E3440;
-    color: #D8DEE9;
+	color: #D8DEE9;
 }
 a {
-    color: #5e81ac;
+	color: #5e81ac;
 }
-a:hover, a:visited {
-    color: #88C0D0;
+a:hover,
+a:visited {
+	color: #88C0D0;
 }
 ::-webkit-scrollbar {
-    background: #2E3440;
-    border: 0;
+	background: #2E3440;
+	border: 0;
 	border-radius: 0;
 }
 ::-webkit-scrollbar-track,
@@ -23,112 +24,212 @@ a:hover, a:visited {
 	border-radius: 0;
 }
 ::-webkit-scrollbar-thumb {
-    background: #3B4252;
+	background: #3B4252;
 	border-radius: 0;
 }
 .navigationMenu .desktop a.active {
-    color: #eee;
+	color: #eee;
 }
 .navigationMenu .desktop a {
-    background-color: #5e81ac;
-    color: #c0c0c0;
-    border: none;
+	background-color: #5e81ac;
+	color: #c0c0c0;
+	border: none;
 }
-.nav-tabs>li.active>a {
-    background-color: #5e81ac;
-    color: #c0c0c0;
+.nav-tabs > li.active > a {
+	background-color: #5e81ac;
+	color: #c0c0c0;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    background-color: #5e81ac;
-    color: #c0c0c0;
-    border-color: #434C5E;
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+	background-color: #5e81ac;
+	color: #c0c0c0;
+	border-color: #434C5E;
 }
-.building #buildButton, .building #buildResult .wikiLink, .building #conciseViewLink a, .building #detailedViewLink a, .building #unitLink, .building .footerButtons a {
-    box-shadow: none;
-    background: none;
-    color: #88C0D0;
+.building #buildButton,
+.building #buildResult .wikiLink,
+.building #conciseViewLink a,
+.building #detailedViewLink a,
+.building #unitLink,
+.building .footerButtons a {
+	box-shadow: none;
+	background: none;
+	color: #88C0D0;
 }
 .result-tab-pane,
 .nav-tabs,
-.items .tbody .tr .td, .results {
-    border-color: #434C5E;
+.items .tbody .tr .td,
+.results {
+	border-color: #434C5E;
 }
 .conciseView .buildLine {
-    border-color: #434C5E;
+	border-color: #434C5E;
 }
-.panel-default>.panel-heading {
-    border-color: #4C566A;
+.panel-default > .panel-heading {
+	border-color: #4C566A;
 }
 input {
-    background-color: #4C566A;
-    border-style: none;
-    padding: 3px;
+	background-color: #4C566A;
+	border-style: none;
+	padding: 3px;
 }
-.select2-container--bootstrap.select2-container--focus .select2-selection, .select2-container--bootstrap.select2-container--open .select2-selection {
-    box-shadow: none;
-    border-color: #434C5E;
+.select2-container--bootstrap.select2-container--focus .select2-selection,
+.select2-container--bootstrap.select2-container--open .select2-selection {
+	box-shadow: none;
+	border-color: #434C5E;
 }
 .select2-container--bootstrap .select2-dropdown {
-    border-color: #434C5E;
+	border-color: #434C5E;
 }
 .select2-container--bootstrap .select2-selection--single .select2-selection__rendered {
-    color: #c0c0c0;
+	color: #c0c0c0;
 }
-.panel-default>.panel-heading {
-    color: #c0c0c0;
+.panel-default > .panel-heading {
+	color: #c0c0c0;
 }
 .select2-container--bootstrap .select2-results__option[aria-selected=true] {
-    background: #5e81ac;
+	background: #5e81ac;
 }
 #inventoryDiv button.inventoryStatus {
-    background-color: #4C566A !important;
-    border: none;
+	background-color: #4C566A !important;
+	border: none;
 }
 #inventoryDiv button,
 .select2-results__option {
-    background-color: #4C566A;
+	background-color: #4C566A;
 }
+.unitsSidebar .unitsSidebarButton:hover,
+.unitsSidebar .unitsSidebarButton:active,
 .select2-container--bootstrap .select2-results__option--highlighted[aria-selected] {
-    background: #5e81ac;
+	background: #5e81ac;
 }
 .select2-container--bootstrap .select2-selection,
 .btn-default,
 .select2-container--bootstrap .select2-search--dropdown .select2-search__field,
 select,
+.itemsSidebar .itemsSidebarButton,
+.itemsSidebar .itemsSidebarButton:hover,
+.unitsSidebar .unitsSidebarButton,
 .form-control {
-    border-color: #2E3440;
-    background: #434C5E;
-    color: #c0c0c0;
-    box-shadow: none;
+	border-color: #2E3440;
+	background: #434C5E;
+	color: #c0c0c0;
+	box-shadow: none;
 }
-.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control,
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control,
+#exportLinks a.dropdown-toggle,
 .input-group-addon {
-    border-color: #2E3440;
-    background-color: #2A303B;
+	border-color: #2E3440;
+	background-color: #2A303B;
 }
 .panel-default {
-    border-color: #434C5E;
-    background-color: #2E3440;
+	border-color: #434C5E;
+	background-color: #2E3440;
 }
-.panel-default>.panel-heading {
-    background-color: #2E3440;
+.panel-default > .panel-heading {
+	background-color: #2E3440;
 }
 .progressBarDiv {
-    background-color: #4C566A;
+	background-color: #4C566A;
 }
 .progressBar {
-    background-color: #5e81ac;
+	background-color: #5e81ac;
 }
 .item .enhancements {
-    color:  #5e81ac;
+	color: #5e81ac;
 }
 .sideBarButton {
-    display: none;
+	display: none;
 }
 #scrollToTopButton {
-    background: none;
-    display: none;
+	background: none;
+	display: none;
 }
 #scrollToTopButton span {
-    border: none;
+	border: none;
 }
+.modal-content {
+	background: #2E3440;
+}
+#fixItemModal .results .tr.selectable:hover {
+	background-color: #5e81ac;
+}
+.items .thead .tr .td {
+	border-color: #4C566A;
+}
+.navigationMenu .mobile .dropdown-menu {
+	background-color: #4C566A;
+}
+.dropdown-menu > li > a {
+	color: #c0c0c0;
+}
+.dropdown-menu > li > a:hover {
+	background: #5e81ac;
+}
+#fixItemModal .modal-body .nav > li.active > a,
+#fixItemModal .modal-body .nav > li:hover > a {
+	background: #2E3440;
+}
+.items .thead {
+	background: #5e81ac;
+	color: #2E3440;
+}
+.btn-default.focus,
+.btn-default:focus {
+	background: #5e81ac;
+}
+.buildResult .item {
+	border-color: #2E3440;
+	background-color: #2A303B;
+}
+.item,
+.rarityJumpList .rarityJump {
+	background: #2E3440;
+	border-color: #2E3440;
+	color: #000;
+}
+#itemsWrapper .item {
+	background: #4C566A;
+	color: #c0c0c0;
+}
+#itemsWrapper .item.notOwned {
+	background-color: #2A303B;
+}
+#buildResult .item {
+	background-color: #2E3440;
+	color: #c0c0c0;
+}
+#buildResult .item:hover {
+	background-color: #2E3440;
+}
+.rarityJumpList .rarityJump:hover {
+	background-color: #88C0D0;
+}
+.item.notOwned {
+	border-color: #2E3440;
+	background-color: #2A303B;
+}
+.item:hover {
+	color: #000;
+	background-color: #88C0D0;
+}
+.typeJumpList .typeJump {
+	border-color: #2E3440;
+	background-color: #2A303B;
+}
+.nav-tabs > li > a:hover {
+	border-color: #2E3440;
+	background-color: #88C0D0;
+}
+#results {
+	background-color: #2E3440;
+}
+.unit.owned {
+	background: #5e81ac;
+}
+.unit.owned.sevenStars {
+	background-color: #88C0D0;
+}
+
