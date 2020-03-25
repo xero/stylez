@@ -3,11 +3,21 @@ html {
 }
 img,
 iframe,
-.gbii::before {
+.gbii::before,
+[data-color*="#"],
+[role=checkbox],
+[role=main] [role=button] {
     -webkit-filter: invert(100%);
 }
+[role=main] [role=button] {
+    color: #000000 !important;
+}
+[role=checkbox] div,
+[role=main] [role=button]::after {
+    border-color: #000000 !important;
+}
 body {
- 	background-color: #222 !important;
+    background-color: #222 !important;
 }
 ::-webkit-scrollbar{
     width: 13px;
@@ -42,7 +52,7 @@ a:hover {
     color: #957373 !important;
 }
 .TUH0Sd .r4nke, .TUH0Sd:focus .r4nke, .TUH0Sd:hover .r4nke, .TUH0Sd.i8dSE.uGtG7d .r4nke, .XiVK6d {
-	background-color: #7878A0;
+    background-color: #7878A0;
 }
 .RDlrG {
     box-shadow: 0 24px 38px 3px rgba(255,255,255,0.14), 0 9px 46px 8px rgba(255,255,255,0.12), 0 11px 15px -7px rgba(255,255,255,0.2)
