@@ -1,6 +1,21 @@
 /*
 urls on the domain: app.lucidchart.com
 */
-lucid-editor-header {
+lucid-editor-header,
+lucid-right-panel,
+lucid-left-dock .icon-tabs {
     display: none !important;
+}
+.left-spacer {
+    margin-left: -40px;
+}
+right-spacer {
+    border: 1px solid #00ff00;
+}
+.right-panel,
+.right-spacer,
+.header-spacer {
+    min-width: 0px !important;
+    min-height: 0px !important;
+    display: none;
 }
