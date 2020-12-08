@@ -10,7 +10,75 @@ iframe {
     -webkit-filter: invert(100%);
 }
 body {
-    background: #111 !important;
+    background: #eee !important;
+    background-color: #eee !important;
+}
+.text-white,
+.checks-list-item.selected .selected-color-white {
+    color: #000 !important;
+}
+.checks-list-item.selected .checks-list-item-name {
+    background-color: #7878A0 !important;
+}
+.bg-gray-light {
+    background-color: #fff !important;
+}
+.bg-gray-dark {
+    background-color: #eee !important;
+}
+.bg-blue {
+    background-color: #957373 !important;
+}
+.bg-green {
+    background-color: #6f42c1 !important;
+}
+.bg-red {
+    background-color: #28c5b6 !important;
+}
+.bg-yellow {
+    background-color: #002cc2 !important;
+}
+.CheckRun {
+    background: #eee !important;
+}
+.CheckRun-header {
+    background: #fff !important;
+    border-color: #fff;
+}
+.CheckRun-search .btn[disabled] {
+    background: #cdcdcd;
+}
+.CheckRun-search-input {
+    background: #cdcdcd;
+}
+.CheckRun-log-title {
+    color: #111;
+}
+.CheckStep-line {
+    color: #3f3f3f;
+}
+details.CheckStep {
+    background: #eee;
+    border-color: #fff;
+}
+.CheckStep-line:hover {
+    color: #000;
+    background-color: #eee;
+}
+.CheckStep .log-line-command {
+    color: #957373 !important
+}
+.CheckStep .ansifg-g {
+    color: #6f42c1 !important
+}
+.CheckStep .ansifg-r {
+    color: #28c5b6 !important
+}
+.CheckStep .ansifg-y {
+    color: #002cc2 !important;
+}
+.CheckStep .log-line-error {
+    color: #28c5b6 !important
 }
 ::-webkit-scrollbar {
     width: 10px;
