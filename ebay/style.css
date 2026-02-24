@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name           ebay - bayofblack2026
+@namespace      USO Archive
+@author         Thermalzombie & x0
+@description    A dark theme for ebay
+@version        2026.02.24
+@license        CC-BY-4.0
+@preprocessor   uso
+==/UserStyle== */
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("motors.ebay.com"), domain("ebaydesc.com"), domain("befr.ebay.be"), domain("ebay.com.au"), domain("ebay.com.hk"), domain("ebay.com.sg"), domain("ebay.co.uk"), domain("ebay.co.jp"), domain("ebay.com"), domain("ebay.at"), domain("ebay.ca"), domain("ebay.de"), domain("ebay.fr"), domain("ebay.nl"), domain("ebay.ie"), domain("ebay.in"), domain("ebay.it"), domain("ebay.ph"), domain("ebay.pl") {
   input,
