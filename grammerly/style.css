@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name           grammerly - dark grammer
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    darkmode for grammerly
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("grammarly.com") {
     :root {
         --color-background-base-default: #000;
