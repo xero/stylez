@@ -1,134 +1,142 @@
-/*
-urls on the domain: reddit.com
-*/
-::-webkit-scrollbar{
+/* ==UserStyle==
+@name           reddit - darksideofreddit
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    dark theme for reddit
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("reddit.com") {
+  ::-webkit-scrollbar {
     width: 13px;
-}
-::-webkit-scrollbar-button:vertical:increment {
-    background-color:#333;
-}
-::-webkit-scrollbar-button:vertical:increment:hover {
-    background-color:#666;
-}
-::-webkit-scrollbar-button:vertical:decrement {
-    background-color:#111;
-}
-::-webkit-scrollbar-button:vertical:decrement:hover {
-    background-color:#666;
-} 
-::-webkit-scrollbar-thumb{
-    background-color:#111;
+  }
+  ::-webkit-scrollbar-button:vertical:increment {
+    background-color: #333;
+  }
+  ::-webkit-scrollbar-button:vertical:increment:hover {
+    background-color: #666;
+  }
+  ::-webkit-scrollbar-button:vertical:decrement {
+    background-color: #111;
+  }
+  ::-webkit-scrollbar-button:vertical:decrement:hover {
+    background-color: #666;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #111;
     border-radius: 0;
-}
-::-webkit-scrollbar-thumb:hover{
-    background-color:#333;
-}
-::-webkit-scrollbar-track{
-    background-color:#333;
-}
-::-webkit-scrollbar-corner { 
-    background-color:#333; 
-}
-body,
-.res-nightmode body {
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #333;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #333;
+  }
+  ::-webkit-scrollbar-corner {
+    background-color: #333;
+  }
+  body,
+  .res-nightmode body {
     background: #222;
-}
-.res-nightmode body .content {
+  }
+  .res-nightmode body .content {
     background: #222;
-}
-.res-nightmode #sr-header-area,
-.res-nightmode #sr-more-link {
+  }
+  .res-nightmode #sr-header-area,
+  .res-nightmode #sr-more-link {
     border: none;
-}
-#header-bottom-left {
+  }
+  #header-bottom-left {
     background: #333;
     color: #333;
     border: 2px solid #333;
-}
-#RESShortcuts {
+  }
+  #RESShortcuts {
     padding-left: 10px;
     font-weight: bold;
-}
-#RESShortcuts .separator {
+  }
+  #RESShortcuts .separator {
     color: #444;
-}
-.res-nightmode .sr-bar a {
+  }
+  .res-nightmode .sr-bar a {
     color: #68a;
-}
-.promotedlink.promoted,
-#srLeftContainer {
+  }
+  .promotedlink.promoted,
+  #srLeftContainer {
     display: none !important;
-}
-.res-nightmode #RESShortcutsEditContainer,
-.res-nightmode #RESShortcutsSort,
-.res-nightmode #RESShortcutsRight,
-.res-nightmode #RESShortcutsLeft,
-.res-nightmode #RESShortcutsAdd {
+  }
+  .res-nightmode #RESShortcutsEditContainer,
+  .res-nightmode #RESShortcutsSort,
+  .res-nightmode #RESShortcutsRight,
+  .res-nightmode #RESShortcutsLeft,
+  .res-nightmode #RESShortcutsAdd {
     background: #333;
-}
-.res-nightmode #sr-header-area,
-.res-nightmode #sr-more-link {
+  }
+  .res-nightmode #sr-header-area,
+  .res-nightmode #sr-more-link {
     background-color: #333;
     color: #fff;
-}
-body.mod-toolbox .tb-general-button,
-body.mod-toolbox li a.tb-general-button,
-body.mod-toolbox .tb-bracket-button {
+  }
+  body.mod-toolbox .tb-general-button,
+  body.mod-toolbox li a.tb-general-button,
+  body.mod-toolbox .tb-bracket-button {
     background: #222;
     color: #e0e0e0;
     border-color: #111;
-}
-body.mod-toolbox .tb-general-button:hover,
-body.mod-toolbox li a.tb-general-button:hover,
-body.mod-toolbox .tb-bracket-button:hover {
+  }
+  body.mod-toolbox .tb-general-button:hover,
+  body.mod-toolbox li a.tb-general-button:hover,
+  body.mod-toolbox .tb-bracket-button:hover {
     background: #666;
-}
-.res-nightmode .newComments,
-.newComments,
-.res-nightmode .link .score.likes,
-.res-nightmode .tabmenu li.selected a,
-#sr-header-area a.RESShortcutsCurrentSub,
-.message.new>.entry .head,
-.thing.stickied.link a.title,
-.tagline .stickied-tagline,
-.search-result-meta .stickied-tagline {
+  }
+  .res-nightmode .newComments,
+  .newComments,
+  .res-nightmode .link .score.likes,
+  .res-nightmode .tabmenu li.selected a,
+  #sr-header-area a.RESShortcutsCurrentSub,
+  .message.new > .entry .head,
+  .thing.stickied.link a.title,
+  .tagline .stickied-tagline,
+  .search-result-meta .stickied-tagline {
     color: #87875f !important;
-}
-.res-userHighlight .tagline .author.friend {
+  }
+  .res-userHighlight .tagline .author.friend {
     background-color: #87875f !important;
     color: #000 !important;
     padding: 2px;
     border-radius: 0;
-}
-.res-nightmode .link .score.dislikes,
-.res-nightmode a,
-.tagline .stickied-tagline,
-.search-result-meta .stickied-tagline {
+  }
+  .res-nightmode .link .score.dislikes,
+  .res-nightmode a,
+  .tagline .stickied-tagline,
+  .search-result-meta .stickied-tagline {
     color: #68a;
-}
-.author {
+  }
+  .author {
     color: #68a !important;
-}
-#header {
+  }
+  #header {
     border-bottom: none;
-}
-.tabmenu li.selected a {
+  }
+  .tabmenu li.selected a {
     border: none;
-}
-.res-nightmode .arrow.downmod {
+  }
+  .res-nightmode .arrow.downmod {
     filter: brightness(90%) contrast(90%);
-}
-.res-nightmode .arrow.upmod {
+  }
+  .res-nightmode .arrow.upmod {
     filter: hue-rotate(50deg) contrast(30%);
-}
-.res-nightmode .RES-keyNav-activeElement,
-.res-nightmode .RES-keyNav-activeElement .md-container {
+  }
+  .res-nightmode .RES-keyNav-activeElement,
+  .res-nightmode .RES-keyNav-activeElement .md-container {
     background: #272822 !important;
-}
-.mod-toolbox.res-nightmode #tb-bottombar {
-	background-color: #333;
+  }
+  .mod-toolbox.res-nightmode #tb-bottombar {
+    background-color: #333;
     border-color: #333;
-}
-body.mod-toolbox .tb-toolbar a {
+  }
+  body.mod-toolbox .tb-toolbar a {
     color: #68a;
+  }
 }

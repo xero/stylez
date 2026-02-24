@@ -1,9 +1,17 @@
-/*
-urls on the domain: reddit.com
-*/
-.side {
- 	display: none;
-}
-.content {
- 	margin: 0 auto;
+/* ==UserStyle==
+@name           reddit - antisidebar
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    removes the reddit sidebar
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("reddit.com") {
+  .side {
+    display: none;
+  }
+  .content {
+    margin: 0 auto;
+  }
 }

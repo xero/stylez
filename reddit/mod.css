@@ -1,57 +1,93 @@
-/*
-urls on the domain: mod.reddit.com
-*/
-html {
+/* ==UserStyle==
+@name           reddit moderator - darksideofredditmods
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    dark theme for reddit mod page
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("mod.reddit.com") {
+  html {
     -webkit-filter: invert(100%);
-}
-img,
-iframe {
+    filter: invert(100%);
+  }
+  img,
+  iframe {
     -webkit-filter: invert(100%);
-}
-body {
-	background: #000 !important;   
-}
-.App__header,
-.Sidebar__title, 
-.App__sidebar,
-App__sidebarFooter,
-.App__sidebarFooter,
-.ThreadPreviewViewer__header {
-	background: #eee !important;
-	background-color: #eee !important;    
-}
-.ThreadPreviewViewer__thread {
-	background: #ccc !important;
-    box-shadow: 0 2px 4px rgba(205,205,205,.14)
-}
-.ThreadPreviewViewer__thread.m-read {
-	background: #fff !important;    
-}
-a:hover,
-.ThreadPreview__author.m-mod, .ThreadPreview__author:visited.m-mod,
-.Message__author.m-mod, .Message__author:visited.m-mod,
-.FancySelect__valueIcon, .FancySelect__valueText,
-.Header__userIcon,
-.StyledHtml a,
-.InfoBar__recent, .InfoBar__recent,
-.ThreadPreview__author, .ThreadPreview__author,
-.ThreadPreview__author, .ThreadPreview__author:visited,
-.SidebarNav__item.m-selected.m-all .SidebarNav__icon, .SidebarNav__item.m-selected.m-all .SidebarNav__title, .SidebarNav__item.m-selected.m-archived .SidebarNav__icon, .SidebarNav__item.m-selected.m-archived .SidebarNav__title, .SidebarNav__item.m-selected.m-inprogress .SidebarNav__icon, .SidebarNav__item.m-selected.m-inprogress .SidebarNav__title, .SidebarNav__item.m-selected.m-new .SidebarNav__icon, .SidebarNav__item.m-selected.m-new .SidebarNav__title, .SidebarNav__item:hover.m-all .SidebarNav__icon, .SidebarNav__item:hover.m-all .SidebarNav__title, .SidebarNav__item:hover.m-archived .SidebarNav__icon, .SidebarNav__item:hover.m-archived .SidebarNav__title, .SidebarNav__item:hover.m-inprogress .SidebarNav__icon, .SidebarNav__item:hover.m-inprogress .SidebarNav__title, .SidebarNav__item:hover.m-new .SidebarNav__icon, .SidebarNav__item:hover.m-new .SidebarNav__title {
-     color: #957373 !important;       
-}
-.InfoBar__recent, .InfoBar__recent:visited {
-     color: #7878A0;    
-}
-/* mod toolbox */
-body.mod-toolbox #tb-bottombar {
+    filter: invert(100%);
+  }
+  body {
+    background: #000 !important;
+  }
+  .App__header,
+  .Sidebar__title,
+  .App__sidebar,
+  App__sidebarFooter,
+  .App__sidebarFooter,
+  .ThreadPreviewViewer__header {
+    background: #eee !important;
+    background-color: #eee !important;
+  }
+  .ThreadPreviewViewer__thread {
+    background: #ccc !important;
+    box-shadow: 0 2px 4px rgba(205, 205, 205, 0.14);
+  }
+  .ThreadPreviewViewer__thread.m-read {
+    background: #fff !important;
+  }
+  a:hover,
+  .ThreadPreview__author.m-mod,
+  .ThreadPreview__author:visited.m-mod,
+  .Message__author.m-mod,
+  .Message__author:visited.m-mod,
+  .FancySelect__valueIcon,
+  .FancySelect__valueText,
+  .Header__userIcon,
+  .StyledHtml a,
+  .InfoBar__recent,
+  .InfoBar__recent,
+  .ThreadPreview__author,
+  .ThreadPreview__author,
+  .ThreadPreview__author,
+  .ThreadPreview__author:visited,
+  .SidebarNav__item.m-selected.m-all .SidebarNav__icon,
+  .SidebarNav__item.m-selected.m-all .SidebarNav__title,
+  .SidebarNav__item.m-selected.m-archived .SidebarNav__icon,
+  .SidebarNav__item.m-selected.m-archived .SidebarNav__title,
+  .SidebarNav__item.m-selected.m-inprogress .SidebarNav__icon,
+  .SidebarNav__item.m-selected.m-inprogress .SidebarNav__title,
+  .SidebarNav__item.m-selected.m-new .SidebarNav__icon,
+  .SidebarNav__item.m-selected.m-new .SidebarNav__title,
+  .SidebarNav__item:hover.m-all .SidebarNav__icon,
+  .SidebarNav__item:hover.m-all .SidebarNav__title,
+  .SidebarNav__item:hover.m-archived .SidebarNav__icon,
+  .SidebarNav__item:hover.m-archived .SidebarNav__title,
+  .SidebarNav__item:hover.m-inprogress .SidebarNav__icon,
+  .SidebarNav__item:hover.m-inprogress .SidebarNav__title,
+  .SidebarNav__item:hover.m-new .SidebarNav__icon,
+  .SidebarNav__item:hover.m-new .SidebarNav__title {
+    color: #957373 !important;
+  }
+  .InfoBar__recent,
+  .InfoBar__recent:visited {
+    color: #7878a0;
+  }
+  /* mod toolbox */
+  body.mod-toolbox #tb-bottombar {
     -webkit-filter: invert(100%);
+    filter: invert(100%);
     background: #222;
     border-top: none;
-}
-.mod-toolbox #tb-toolbar-mysubs, .mod-toolbox #tb-personal-notes-button {
+  }
+  .mod-toolbox #tb-toolbar-mysubs,
+  .mod-toolbox #tb-personal-notes-button {
     border: none;
     background: #222;
-}
-body.mod-toolbox .tb-general-button, body.mod-toolbox li a.tb-general-button, body.mod-toolbox .tb-bracket-button {
-	border-color: #ddd;
+  }
+  body.mod-toolbox .tb-general-button,
+  body.mod-toolbox li a.tb-general-button,
+  body.mod-toolbox .tb-bracket-button {
+    border-color: #ddd;
+  }
 }
