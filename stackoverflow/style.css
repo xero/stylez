@@ -1,239 +1,371 @@
-/*
-urls on the domain: stackoverflow.com
-urls on the domain: superuser.com
-urls on the domain: serverfault.com
-urls on the domain: askubuntu.com
-urls on the domain: unix.stackexchange.com
-urls on the domain: vi.stackexchange.com
-*/
-
-.so-header, .js-so-header  {
+/* ==UserStyle==
+@name           stackoverflow - darkerso
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    A darker theme for the stackoverflow sites
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("stackoverflow.com"), domain("superuser.com"), domain("serverfault.com"), domain("askubuntu.com"), domain("unix.stackexchange.com"), domain("vi.stackexchange.com") {
+  .so-header,
+  .js-so-header {
     background: #111;
-}
-body, #questions div, .qa-block, #content {
-  background:#222 !important;
-}
+  }
+  body,
+  #questions div,
+  .qa-block,
+  #content {
+    background: #222 !important;
+  }
 
-#footer.categories {
-  background:#181818 !important;
-}
+  #footer.categories {
+    background: #181818 !important;
+  }
 
-.post-text {
-  background:#D5D5D5 !important;
-  color:#000000;
-}
+  .post-text {
+    background: #d5d5d5 !important;
+    color: #000000;
+  }
 
-h1, h2, h3, h4 .page-description td, p, .owner-revision span, .revision span, div.container, #mdhelp pre, .badgecount, .comments, .user-panel-content td, .user-panel-content th, .content-page, .viewcount, .welovestackoverflow, .vote-count-post, .summarycount, #sidebar.module p .vote-count-post, .answer-votes, div.comment-body, h1 a, h4, span.reputation-score, div.module.question-stats p, span.page-numbers, #newsletter-ad, .item-summary, div.new-about-content-page.about-content-page div h2.about-title, .module.newuser, .page-description td, .bulletin-title, .status.answered span, .status.answered div, .label-key b, .excerpt, .answer-help, #mdhelp {
-  color:#C0C0C0 !important;
-}
+  h1,
+  h2,
+  h3,
+  h4 .page-description td,
+  p,
+  .owner-revision span,
+  .revision span,
+  div.container,
+  #mdhelp pre,
+  .badgecount,
+  .comments,
+  .user-panel-content td,
+  .user-panel-content th,
+  .content-page,
+  .viewcount,
+  .welovestackoverflow,
+  .vote-count-post,
+  .summarycount,
+  #sidebar.module p .vote-count-post,
+  .answer-votes,
+  div.comment-body,
+  h1 a,
+  h4,
+  span.reputation-score,
+  div.module.question-stats p,
+  span.page-numbers,
+  #newsletter-ad,
+  .item-summary,
+  div.new-about-content-page.about-content-page div h2.about-title,
+  .module.newuser,
+  .page-description td,
+  .bulletin-title,
+  .status.answered span,
+  .status.answered div,
+  .label-key b,
+  .excerpt,
+  .answer-help,
+  #mdhelp {
+    color: #c0c0c0 !important;
+  }
 
-.revision-comment,  .user-info-rep, .user-info-rep .user-details, .nav.mainnavs li a {
-  color:#C0C0C0 !important;
-  background: #454545 !important;
-}
+  .revision-comment,
+  .user-info-rep,
+  .user-info-rep .user-details,
+  .nav.mainnavs li a {
+    color: #c0c0c0 !important;
+    background: #454545 !important;
+  }
 
-.vote-count-post, .votes {
-  color:#E3E3AC !important;
-}
+  .vote-count-post,
+  .votes {
+    color: #e3e3ac !important;
+  }
 
-span.count, .badge-tag {
-  color: #FFFFFF !important;
-}
+  span.count,
+  .badge-tag {
+    color: #ffffff !important;
+  }
 
-.stats {
-  background-color:#C0C0C0 !important;
-}
+  .stats {
+    background-color: #c0c0c0 !important;
+  }
 
-.status.unanswered, .status.unanswered strong {
-  color:#C23B22 !important;
-}
+  .status.unanswered,
+  .status.unanswered strong {
+    color: #c23b22 !important;
+  }
 
-.status.unanswered span {
-  color:#777777 !important;    
+  .status.unanswered span {
+    color: #777777 !important;
+  }
 
-}
+  .diff-delete {
+    background: #501010 !important;
+  }
 
-.diff-delete {
-  background:#501010 !important;
-}
+  .diff-add {
+    color: #a0e0a0 !important;
+    background: #105010 !important;
+  }
 
-.diff-add {
-  color:#A0E0A0 !important;
-  background:#105010 !important;
-}
+  .status.answered,
+  .status.answered strong,
+  .user-about-me,
+  .stats {
+    background: #353535 !important;
+  }
 
-.status.answered, .status.answered strong, .user-about-me, .stats {
-  background:#353535 !important;
-}
+  .result-highlight {
+    color: #ffffff !important;
+  }
 
-.result-highlight {
-  color:#FFFFFF !important;
-}
+  .status.answered-accepted,
+  .status.answered-accepted strong {
+    background: #759971 !important;
+  }
 
-.status.answered-accepted, .status.answered-accepted strong {
-  background:#759971 !important;
-}
+  a:visited,
+  .answer-hyperlink:visited {
+    color: #a187be !important;
+  }
 
+  a,
+  h1 > a:visited,
+  .answer-hyperlink,
+  .reputation a:visited {
+    color: #6ecff6 !important;
+  }
 
-a:visited, .answer-hyperlink:visited{
-  color:#A187BE !important;
-}
+  .content-block,
+  .on-topic-examples,
+  .off-topic-examples,
+  .topbar .header,
+  .modal-content,
+  .welovestackoverflow,
+  .comment-user,
+  .community-bulletin,
+  .revision td,
+  #nav-askquestion,
+  .answer-votes,
+  #tabs a,
+  .nav.mainnavs li,
+  .question-status,
+  #newsletter-ad .company-ad-b,
+  .company-ad-sb,
+  #hero-content,
+  .module.newuser,
+  .subtabs a.youarehere,
+  .user-show-new .user-header-slim .data,
+  .page-numbers.current,
+  .other-sites,
+  .topbar .topbar-icon-on,
+  .topbar .topbar-icon-on:hover,
+  .answer-help-background,
+  #mdhelp-tabs,
+  .ad502-room {
+    background-color: #454545 !important;
+  }
 
-a, h1>a:visited, .answer-hyperlink, .reputation a:visited {
-  color:#6ECFF6 !important;
-}
+  .owner-revision td,
+  .owner-revision .revision-comment,
+  .owner-revision .user-details {
+    background: #4a5287 !important;
+  }
 
-.content-block, .on-topic-examples, .off-topic-examples, .topbar .header, .modal-content, .welovestackoverflow, .comment-user, .community-bulletin, .revision td, #nav-askquestion, .answer-votes, #tabs a, .nav.mainnavs li, .question-status, #newsletter-ad .company-ad-b, .company-ad-sb, #hero-content, .module.newuser, .subtabs a.youarehere, .user-show-new .user-header-slim .data, .page-numbers.current, .other-sites, .topbar .topbar-icon-on, .topbar .topbar-icon-on:hover, .answer-help-background, #mdhelp-tabs, .ad502-room {
-  background-color:#454545 !important;
-}
+  .comment-user.owner {
+    background: #2e5666 !important;
+  }
 
-.owner-revision td, .owner-revision .revision-comment, .owner-revision .user-details{
-  background: #4A5287 !important;
-}
+  .comment-user {
+    padding: 2px !important;
+  }
 
-.comment-user.owner {
-  background:#2E5666 !important;
-}
+  .post-tag,
+  #toc {
+    background: #454545 !important;
+    border: 0px !important;
+  }
 
-.comment-user {
-  padding:2px !important;
-}
+  .welovestackoverflow,
+  .topbar-dialog {
+    border: 0px !important;
+  }
 
-.post-tag, #toc {
-  background:#454545 !important;
-  border:0px !important;
-}
+  .mdhelp-tabs {
+    border: 1px solid #888 !important;
+  }
 
-.welovestackoverflow, .topbar-dialog {
-  border: 0px !important;
-}
+  .module,
+  #question-header,
+  .question-summary,
+  .subheader,
+  #tabs > a,
+  .company-ad-b,
+  .company-ad-sb,
+  #hero-content,
+  div.subtabs a,
+  .page-numbers,
+  .topbar-dialog li,
+  .user-about-me,
+  .user-show-new .user-header-slim .data,
+  .comment td,
+  .answer,
+  .wmd-input,
+  .wmd-button-bar,
+  .wmd-preview,
+  .grippie,
+  .ad502-room {
+    border-color: #888 !important;
+  }
 
-.mdhelp-tabs {
-  border: 1px solid #888 !important;
-}
+  .topbar-dialog {
+    background-color: #888 !important;
+  }
 
-.module, #question-header, .question-summary, .subheader, #tabs > a, .company-ad-b, .company-ad-sb, #hero-content, div.subtabs a, .page-numbers, .topbar-dialog li, .user-about-me, .user-show-new .user-header-slim .data, .comment td, .answer, .wmd-input, .wmd-button-bar, .wmd-preview, .grippie, .ad502-room {
-  border-color:#888 !important;
-}
+  .post-signature.owner,
+  .user-details,
+  .tagged-interesting {
+    background: #353535 !important;
+  }
 
-.topbar-dialog {
-  background-color:#888 !important;
-}
+  .comment:hover,
+  .js-gps-track:hover,
+  .siteSwitcher-dialog li:hover,
+  .inbox-item:hover {
+    background: #555555 !important;
+  }
 
-.post-signature.owner, .user-details, .tagged-interesting {
-  background:#353535 !important;
-}
+  input {
+    background: #e5e5e5 !important;
+    color: #404040 !important;
+  }
 
-.comment:hover, .js-gps-track:hover, .siteSwitcher-dialog li:hover, .inbox-item:hover {
-  background:#555555 !important;
-}
+  #hmenus a:hover {
+    background: #606060 !important;
+  }
 
-input {
-  background:#E5E5E5 !important;  
-  color:#404040 !important;
-}
+  textarea {
+    background: #404040 !important;
+    color: #c0c0c0 !important;
+  }
 
-#hmenus a:hover {
-  background:#606060 !important;
-}
+  .grippie {
+    background: #454545 !important;
+  }
 
-textarea {
-  background:#404040 !important;
-  color:#C0C0C0 !important;
-}
+  .feed-icon {
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
 
-.grippie {
-  background:#454545 !important;
-}
+  #hlogo a {
+    background-image: url("http://i.imgur.com/zeNdkNx.png") !important;
+    background-size: 280px;
+    width: 280px;
+    height: 90px;
+  }
 
-.feed-icon {
-  background-color: rgba(255, 255, 255, 0) !important;
-}
+  .community-bulletin,
+  .ad502-room {
+    box-shadow: none !important;
+  }
 
-#hlogo a {
-  background-image: url("http://i.imgur.com/zeNdkNx.png") !important;
-  background-size: 280px;
-  width:280px;
-  height:90px;
-}
+  #submit-button {
+    background: #111 !important;
+    color: #c0c0c0 !important;
+    border-color: #333 !important;
+  }
 
-.community-bulletin, .ad502-room {
-  box-shadow:none !important;
-}
+  #submit-button:hover {
+    background: #333 !important;
+    color: #c0c0c0 !important;
+    border-color: #666 !important;
+  }
 
-#submit-button {
-  background: #111 !important;
-  color: #c0c0c0 !important;
-  border-color: #333 !important;
-}
+  .f-input,
+  textarea.f-input,
+  input[type="text"].f-input,
+  input[type="password"].f-input,
+  input[type="number"].f-input,
+  input[type="email"].f-input,
+  input[type="url"].f-input,
+  input[type="search"].f-input,
+  input[type="tel"].f-input,
+  input[type="datetime"].f-input {
+    background: #222 !important;
+    color: #c0c0c0 !important;
+    border: #111 !important;
+  }
 
-#submit-button:hover {
-  background: #333 !important;
-  color: #c0c0c0 !important;
-  border-color: #666 !important;    
-}
+  .so-header .searchbar > [role="icon"] {
+    color: #c0c0c0 !important;
+  }
+  /* code colors */
 
-.f-input, textarea.f-input, input[type="text"].f-input, input[type="password"].f-input, input[type="number"].f-input, input[type="email"].f-input, input[type="url"].f-input, input[type="search"].f-input, input[type="tel"].f-input, input[type="datetime"].f-input {
-  background: #222 !important;
-  color: #c0c0c0 !important; 
-  border: #111 !important;
-}
+  .post-text {
+    background: #222 !important;
+    color: #c0c0c0 !important;
+  }
 
-.so-header .searchbar>[role="icon"] {
-  color: #c0c0c0 !important;     
-}
-/* code colors */
+  .prettyprint,
+  blockquote,
+  pre,
+  pre > .spaces,
+  .hi,
+  .badge-tag {
+    background: #353535 !important;
+  }
 
-.post-text {
-  background:#222 !important;
-  color:#C0C0C0 !important;
-}
+  code {
+    background: #353535 !important;
+    color: #c0c0c0 !important;
+  }
 
-.prettyprint, blockquote, pre, pre>.spaces, .hi, .badge-tag {
-  background:#353535 !important;
-}
+  .lit {
+    /* literal */
+    color: #ff6961 !important;
+  }
 
-code { 
-  background:#353535 !important;
-  color:#C0C0C0 !important;
-}
+  .tag {
+    /* tag */
+    color: #ff6961 !important;
+  }
 
-.lit { /* literal */
-  color:#FF6961 !important;
-}
+  .atn {
+    color: #c23b22 !important;
+  }
 
-.tag { /* tag */
-  color:#FF6961 !important;
-}
+  .atv {
+    color: #aec6cf !important;
+  }
 
-.atn {
-  color:#C23B22 !important;
-}
+  .str {
+    /* string*/
+    color: #c23b22 !important;
+  }
 
-.atv {
-  color:#AEC6CF !important;
-}
+  .pln {
+    /* plain text */
+    color: #e0e0e0 !important;
+  }
 
-.str { /* string*/
-  color:#C23B22 !important;
-}
+  .pun {
+    /* punctuation */
+    color: #a0a0a0 !important;
+  }
 
-.pln { /* plain text */
-  color:#E0E0E0 !important;
-}
+  .com {
+    /* comment */
+    color: #acd372 !important;
+  }
 
-.pun { /* punctuation */
-  color:#A0A0A0 !important;
-}
+  .kwd {
+    /* keyword */
+    color: #aec6cf !important;
+  }
 
-.com { /* comment */
-  color:#ACD372 !important;
-}
-
-.kwd { /* keyword */ 
-  color:#AEC6CF !important;
-}
-
-.typ { /* type */
-  color:#7EB1C4 !important;
+  .typ {
+    /* type */
+    color: #7eb1c4 !important;
+  }
 }
