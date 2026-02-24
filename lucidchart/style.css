@@ -1,59 +1,68 @@
-/*
-urls on the domain: app.lucidchart.com
-*/
-lucid-option-bar,
-lucid-left-dock div,
-lucid-right-panel,
-lucid-command-menu,
-lucid-fill-controls,
-lucid-hex-adjustments .ink-dropper-icon,
-lucid-hex-adjustments lucid-spinner,
-lucid-text-alignment-picker lucid-icon,
-lucid-text-options .bottom,
-lucid-text-options lucid-bottom-label,
-lucid-fill-controls .menu-drawer,
-lucid-line-options lucid-icon,
-lucid-line-options lucid-spinner,
-lucid-callout lucid-icon,
-lucid-callout lucid-line-styles {
+/* ==UserStyle==
+@name           lucidchart - dark lucidity
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    save your eyes in lucidchart
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("app.lucidchart.com") {
+  lucid-option-bar,
+  lucid-left-dock div,
+  lucid-right-panel,
+  lucid-command-menu,
+  lucid-fill-controls,
+  lucid-hex-adjustments .ink-dropper-icon,
+  lucid-hex-adjustments lucid-spinner,
+  lucid-text-alignment-picker lucid-icon,
+  lucid-text-options .bottom,
+  lucid-text-options lucid-bottom-label,
+  lucid-fill-controls .menu-drawer,
+  lucid-line-options lucid-icon,
+  lucid-line-options lucid-spinner,
+  lucid-callout lucid-icon,
+  lucid-callout lucid-line-styles {
     -webkit-filter: invert(95%);
-}
-lucid-footer,
-lucid-footer div,
-lucid-footer span {
+    filter: invert(95%);
+  }
+  lucid-footer,
+  lucid-footer div,
+  lucid-footer span {
     background-color: #111 !important;
-}
-lucid-footer lucid-slider .track {
+  }
+  lucid-footer lucid-slider .track {
     background: #333 !important;
-}
-lucid-footer lucid-slider .thumb {
+  }
+  lucid-footer lucid-slider .thumb {
     background: #c0c0c0 !important;
-}
-lucid-footer .percent-label,
-lucid-footer lucid-input,
-lucid-footer lucid-icon {
+  }
+  lucid-footer .percent-label,
+  lucid-footer lucid-input,
+  lucid-footer lucid-icon {
     color: #c0c0c0 !important;
-}
-lucid-footer .down-arrow {
+  }
+  lucid-footer .down-arrow {
     border-top-color: #c0c0c0 !important;
-}
-lucid-footer .arrow::before {
+  }
+  lucid-footer .arrow::before {
     border-top-color: #c0c0c0 !important;
-}
-body {
+  }
+  body {
     background: #000;
-}
-.viewport-scrollable,
-lucid-callout {
+  }
+  .viewport-scrollable,
+  lucid-callout {
     background-color: #333 !important;
-}
-lucid-callout::after {
+  }
+  lucid-callout::after {
     border-bottom-color: #333 !important;
-}
-.menu-drawer ul li.selected lucid-icon.fill-gradient-linear-icon,
-.menu-drawer ul li.selected lucid-icon.fill-gradient-radial-icon,
-.menu-drawer ul li.selected lucid-icon.fill-solid-icon,
-.menu-drawer ul li.selected lucid-icon.image-icon,
-.menu-drawer ul li.selected .label {
+  }
+  .menu-drawer ul li.selected lucid-icon.fill-gradient-linear-icon,
+  .menu-drawer ul li.selected lucid-icon.fill-gradient-radial-icon,
+  .menu-drawer ul li.selected lucid-icon.fill-solid-icon,
+  .menu-drawer ul li.selected lucid-icon.image-icon,
+  .menu-drawer ul li.selected .label {
     color: #222;
+  }
 }

@@ -1,21 +1,29 @@
-/*
-urls on the domain: app.lucidchart.com
-*/
-lucid-editor-header,
-lucid-right-panel,
-lucid-left-dock .icon-tabs {
+/* ==UserStyle==
+@name           lucidchart - zen mode
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    zen mode for lucidchart
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("app.lucidchart.com") {
+  lucid-editor-header,
+  lucid-right-panel,
+  lucid-left-dock .icon-tabs {
     display: none !important;
-}
-.left-spacer {
+  }
+  .left-spacer {
     margin-left: -40px;
-}
-right-spacer {
+  }
+  right-spacer {
     border: 1px solid #00ff00;
-}
-.right-panel,
-.right-spacer,
-.header-spacer {
+  }
+  .right-panel,
+  .right-spacer,
+  .header-spacer {
     min-width: 0px !important;
     min-height: 0px !important;
     display: none;
+  }
 }
