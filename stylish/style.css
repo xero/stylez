@@ -1,69 +1,131 @@
-/* 
+/* ==UserStyle==
+@name           stylus - midnightstylus
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    dark theme for the stylus extention itself (so meta)
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe") {
+  /*
 apply to all urls starting with: chrome-extension://fjnbnpbmkenffdnngjfgmeleoegfcffe
-(or whatever app id stylish is on your system)
+(or whatever chrome extension id stylish has on your system)
 */
-::-webkit-scrollbar {
-  background: #ddd;
+  ::-webkit-scrollbar {
+    background: #ddd;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #eee;
+  }
+  ::-webkit-scrollbar-corner {
+    background: #ddd;
+  }
+  body {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    background: #222 !important;
+    background-color: #222 !important;
+  }
+  img,
+  iframe,
+  .CodeMirror-lint-marker-warning,
+  .CodeMirror-lint-marker-error,
+  .CodeMirror-lint-message-error,
+  .CodeMirror-lint-tooltip {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+  .CodeMirror-lint-tooltip {
+    background-color: #111;
+    color: #f2f2f2;
+  }
+  .CodeMirror-code {
+    border: none !important;
+    background: #ddd;
+  }
+  a,
+  a:visited {
+    color: #957373;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #957373;
+  }
+  .CodeMirror-activeline-background {
+    background: #eee;
+  }
+  .cm-s-default .cm-header {
+    color: #ad7474;
+  }
+  .cm-s-default .cm-quote {
+    color: #7878a0;
+  }
+  .cm-negative {
+    color: #d44;
+  }
+  .cm-positive {
+    color: #292;
+  }
+  .cm-header,
+  .cm-strong {
+    font-weight: bold;
+  }
+  .cm-em {
+    font-style: italic;
+  }
+  .cm-link {
+    text-decoration: underline;
+  }
+  .cm-strikethrough {
+    text-decoration: line-through;
+  }
+  .cm-s-default .cm-keyword {
+    color: #8e69ee;
+  }
+  .cm-s-default .cm-atom {
+    color: #0067ff;
+  }
+  .cm-s-default .cm-number {
+    color: #0067ff;
+  }
+  .cm-s-default .cm-def {
+    color: #00f;
+  }
+  .cm-s-default .cm-variable-2 {
+    color: #ad7474;
+  }
+  .cm-s-default .cm-variable-3 {
+    color: #ad7474;
+  }
+  .cm-s-default .cm-comment {
+    color: #bbb;
+  }
+  .cm-s-default .cm-string {
+    color: #7878a0;
+  }
+  .cm-s-default .cm-string-2 {
+    color: #7878a0;
+  }
+  .cm-s-default .cm-meta {
+    color: #7e7e59;
+  }
+  .cm-s-default .cm-qualifier {
+    color: #393939;
+  }
+  .cm-s-default .cm-tag {
+    color: #6f4f2e;
+  }
+  .cm-s-default .cm-property {
+    color: #7e7e59;
+  }
+  .cm-s-default .cm-link {
+    color: #ad7474;
+  }
+  .cm-s-default .cm-error {
+    color: #55bbaf;
+  }
+  .cm-invalidchar {
+    color: #55bbaf;
+  }
 }
-::-webkit-scrollbar-thumb {
-  background: #eee;
-}
-::-webkit-scrollbar-corner {
-  background: #ddd;
-}
-body {
-  -webkit-filter: invert(100%);
-  background: #222 !important;
-  background-color: #222 !important;    
-}
-img,
-iframe,
-.CodeMirror-lint-marker-warning,
-.CodeMirror-lint-marker-error, 
-.CodeMirror-lint-message-error,
-.CodeMirror-lint-tooltip {
-  -webkit-filter: invert(100%);
-}
-.CodeMirror-lint-tooltip {
-  background-color: #111;
-  color: #f2f2f2;
-}
-.CodeMirror-code {
-  border: none !important;
-  background: #ddd;   
-}
-a,
-a:visited {
-  color: #957373;
-  text-decoration: none;
-}
-a:hover {
-  color: #957373;
-}
-.CodeMirror-activeline-background  {
-  background: #eee
-}
-.cm-s-default .cm-header {color: #AD7474;}
-.cm-s-default .cm-quote {color: #7878A0;}
-.cm-negative {color: #d44;}
-.cm-positive {color: #292;}
-.cm-header, .cm-strong {font-weight: bold;}
-.cm-em {font-style: italic;}
-.cm-link {text-decoration: underline;}
-.cm-strikethrough {text-decoration: line-through;}
-.cm-s-default .cm-keyword {color: #8E69EE;}
-.cm-s-default .cm-atom {color: #0067FF;}
-.cm-s-default .cm-number {color: #0067FF;}
-.cm-s-default .cm-def {color: #00f;}
-.cm-s-default .cm-variable-2 {color: #AD7474;}
-.cm-s-default .cm-variable-3 {color: #AD7474;}
-.cm-s-default .cm-comment {color: #bbb;}
-.cm-s-default .cm-string {color: #7878A0;}
-.cm-s-default .cm-string-2 {color: #7878A0;}
-.cm-s-default .cm-meta {color: #7E7E59;}
-.cm-s-default .cm-qualifier {color: #393939;}
-.cm-s-default .cm-tag {color: #6F4F2E;}
-.cm-s-default .cm-property {color: #7E7E59;}
-.cm-s-default .cm-link {color: #AD7474;}
-.cm-s-default .cm-error {color: #55BBAF;}
-.cm-invalidchar {color: #55BBAF;}
