@@ -1,0 +1,125 @@
+/*
+urls starting with: https://editgpt.app/editor/
+ */
+:root {
+    --background: #101010;
+    --foreground: #efefef;
+    --muted: #222;
+    --muted-foreground: #ccc;
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+    --popover: #000;
+    --popover-foreground: #efefef;
+    --border: #444;
+    --input: 216 34% 17%;
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --radius: 0;
+    --insdual: 120.03 95% 36%;
+    --deldual: 351.15 72% 35%;
+    --golden:  #8f8f00;
+}
+/* pricing button */
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.fixed.top-0.left-0.right-0.z-50.bg-\[\#F2F2F3\].dark\:bg-\[\#1A1A1A\] > div > div.flex.items-center.gap-4 > div.flex.items-center.justify-end.gap-3 > button {
+    display: none;
+}
+
+/* ui areas */
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.fixed.top-0.left-0.right-0.z-50.bg-\[\#F2F2F3\].dark\:bg-\[\#1A1A1A\] > div,
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div:nth-child(2),
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.editor-content.fixed.inset-0.container.max-w-\[1200px\].mx-auto.px-4.transition-\[padding\].duration-200.pointer-events-none.notranslate > div > div.jsx-de7c726d9ccebf06.w-\[300px\].overflow-auto > div,
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div,
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.fixed.bottom-0.left-0.right-0.z-40.py-2.bg-\[\#F2F2F3\].dark\:bg-\[\#1A1A1A\],
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.editor-content.fixed.inset-0.container.max-w-\[1200px\].mx-auto.px-4.transition-\[padding\].duration-200.pointer-events-none.notranslate {
+    background: #111 !important;
+}
+
+/* suggestions */
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.editor-content.fixed.inset-0.container.max-w-\[1200px\].mx-auto.px-4.transition-\[padding\].duration-200.pointer-events-none.notranslate > div > div.jsx-de7c726d9ccebf06.w-\[300px\].overflow-auto > div > div.flex-shrink-0.flex.justify-between.items-center.border-b.pb-2.p-2 {
+    background: #000;
+    border-color: var(--border);
+}
+/* fix popup */
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.editor-content.fixed.inset-0.container.max-w-\[1200px\].mx-auto.px-4.transition-\[padding\].duration-200.pointer-events-none.notranslate > div > div.jsx-de7c726d9ccebf06.flex-1.relative.rounded-lg.border.border-input.bg-background.text-foreground.flex.flex-col.h-full.overflow-hidden.notranslate > div > div.z-50 > div {
+    background: #000;
+    border-color: #000;
+}
+
+/* menu bar */
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div:nth-child(2) {
+    top: 42px !important;
+    background: #000 !important;
+}
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div:nth-child(2) > div > div > div.flex.flex-col.md\:flex-row.md\:justify-between.md\:items-start.md\:space-x-4.space-y-1.md\:space-y-0 > div.flex.items-start.space-x-\[1px\].rounded-lg.p-1 {
+    button {
+        background: #000;
+        border: 0;
+    }
+    button:hover {
+        background: #111;
+        border: 0;
+    }
+}
+.border-border {
+    border-color: var(--border);
+}
+.bg-red-100\/50 {
+    background: #000 !important;
+}
+.border-gray-200 {
+    border-color: var(--border);
+}
+.bg-black {
+    background: #2c2c2c !important;
+}
+/* settings */
+[data-radix-popper-content-wrapper] {
+    background: #000 !important;
+    * {
+        border-color: var(--border) !important;
+    }
+}
+.hover\:bg-\[\#FDCD3F\]:hover {
+    background: var(--golden);
+}
+/* top bar */
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.fixed.top-0.left-0.right-0.z-50.bg-\[\#F2F2F3\].dark\:bg-\[\#1A1A1A\] > div {
+    border-bottom: 0;
+    background: #000 !important;
+}
+.sticky.top-0 {
+    height: 40px;
+}
+/* doc title */
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.fixed.top-0.left-0.right-0.z-50.bg-\[\#F2F2F3\].dark\:bg-\[\#1A1A1A\] > div > div.flex.items-center.gap-2 > div > div > div > input {
+    background: #222;
+    border-color: #444;
+    color: #efefef;
+}
+
+/* editor */
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.editor-content.fixed.inset-0.container.max-w-\[1200px\].mx-auto.px-4.transition-\[padding\].duration-200.pointer-events-none.notranslate {
+    top: 152px !important;
+}
+
+body > div.flex-1.w-full.flex.flex-col > div > div > div > div > div.jsx-de7c726d9ccebf06.editor-content.fixed.inset-0.container.max-w-\[1200px\].mx-auto.px-4.transition-\[padding\].duration-200.pointer-events-none.notranslate > div > div.jsx-de7c726d9ccebf06.flex-1.relative.rounded-lg.border.border-input.bg-background.text-foreground.flex.flex-col.h-full.overflow-hidden.notranslate {
+    background: #222 !important;
+    border-width: 2px 2px 6px 2px;
+    border-style: solid;
+    border-color: var(--border);
+}
+.bg-red-500 {
+    background: hsl(var(--deldual));
+}
+.text-\[\#69A664\] {
+    color: hsl(var(--insdual));
+}
+.bg-green-500 {
+    background: hsl(var(--insdual));
+}

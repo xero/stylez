@@ -1,0 +1,164 @@
+@-moz-document domain("grammarly.com") {
+    :root {
+        --color-background-base-default: #000;
+        --color-border-base-subdued: #333;
+        --base-boundaries-primary-default: #878da2;
+        --base-boundaries-secondary-default: #223;
+        --base-content-onprimary-default: #fff;
+        --base-content-primary-default: #161719;
+        --base-content-secondary-default: #646b81;
+        --base-surface-primary-default: #000;
+        --base-surface-secondary-default: #f4f4f6;
+        --emphasized-content-onprimary-default: #161719;
+        --emphasized-content-primary-default: #fff;
+        --emphasized-content-secondary-default: #99a0b3;
+        --emphasized-dangeranddeletion-primary-default: #f1768a;
+        --emphasized-dangeranddeletion-primary-hover: #fbabb8;
+        --emphasized-interactivebranded-primary-default: #8ca6f6;
+        --emphasized-interactivebranded-primary-hover: #b8c8fb;
+        --emphasized-interactiveneutral-primary-default: #99a0b3;
+        --emphasized-interactiveneutral-primary-hover: #c2c6d4;
+        --emphasized-successandaddition-primary-default: #18e7b7;
+        --emphasized-successandaddition-primary-hover: #7cf4d8;
+        --emphasized-surface-primary-default: #161719;
+        --emphasized-warning-primary-default: #ffa600;
+        --emphasized-warning-primary-hover: #ffc444;
+        --interface-dangeranddeletion-primary-default: #d31332;
+        --interface-dangeranddeletion-primary-hover: #990921;
+        --interface-dangeranddeletion-secondary-default: #ffebee;
+        --interface-dangeranddeletion-secondary-hover: #fecdd5;
+        --interface-interactivebranded-primary-default: #2551da;
+        --interface-interactivebranded-primary-hover: #02289e;
+        --interface-interactivebranded-secondary-default: #e5ebff;
+        --interface-interactivebranded-secondary-hover: #d7e0fe;
+        --interface-interactiveneutral-primary-default: #646b81;
+        --interface-interactiveneutral-primary-hover: #474b58;
+        --interface-interactiveneutral-secondary-default: #f4f4f6;
+        --interface-interactiveneutral-secondary-hover: #cdd1dc;
+        --interface-premium-primary-default: #935f00;
+        --interface-premium-primary-hover: #5c3c00;
+        --interface-premium-secondary-default: #fff4e0;
+        --interface-premium-secondary-hover: #ffeac2;
+        --interface-successandaddition-primary-default: #05735a;
+        --interface-successandaddition-primary-hover: #024d3b;
+        --interface-successandaddition-secondary-default: #e0fff8;
+        --interface-successandaddition-secondary-hover: #befdef;
+        --interface-warning-primary-default: #935f00;
+        --interface-warning-primary-hover: #5c3c00;
+        --interface-warning-secondary-default: #fff4e0;
+        --interface-warning-secondary-hover: #ffeac2;
+        --suggestioncategories-business-primary-default: #646b81;
+        --suggestioncategories-business-primary-hover: #474b58;
+        --suggestioncategories-business-secondary-default: #f4f4f6;
+        --suggestioncategories-business-secondary-hover: #cdd1dc;
+        --suggestioncategories-clarity-primary-default: #2551da;
+        --suggestioncategories-clarity-primary-hover: #02289e;
+        --suggestioncategories-clarity-secondary-default: #e5ebff;
+        --suggestioncategories-clarity-secondary-hover: #d7e0fe;
+        --suggestioncategories-correctness-primary-default: #d31332;
+        --suggestioncategories-correctness-primary-hover: #990921;
+        --suggestioncategories-correctness-secondary-default: #ffebee;
+        --suggestioncategories-correctness-secondary-hover: #fecdd5;
+        --suggestioncategories-delivery-primary-default: #8943bc;
+        --suggestioncategories-delivery-primary-hover: #60258a;
+        --suggestioncategories-delivery-secondary-default: #f3e0ff;
+        --suggestioncategories-delivery-secondary-hover: #e6ccfb;
+        --suggestioncategories-engagement-primary-default: #05735a;
+        --suggestioncategories-engagement-primary-hover: #024d3b;
+        --suggestioncategories-engagement-secondary-default: #e0fff8;
+        --suggestioncategories-engagement-secondary-hover: #befdef;
+        --suggestioncategories-plagiarism-primary-default: #09646c;
+        --suggestioncategories-plagiarism-primary-hover: #034349;
+        --suggestioncategories-plagiarism-secondary-default: #e0fcff;
+        --suggestioncategories-plagiarism-secondary-hover: #b2f4fa;
+    }
+    .regular_f1jfh96c,
+    .ql-editor {
+        color: #efefef;
+    }
+    .alerts-clarity,
+    .alerts-premium {
+        background: transparent !important;
+        border: 0;
+    }
+    .alerts-markBase,
+    .alerts-markSelected,
+    .alerts-markVisible {
+        background: #222 !important;
+    }
+    .alerts-correctness {
+        background: #300 !important;
+    }
+    .alerts-delivery {
+        background: #140033 !important;
+    }
+    [data-name="inline-card"] div {
+        background: #101010;
+    }
+    .scrollbar-invisibleScrollbar_f1sycrku {
+        width: 100% !important;
+    }
+    /*
+    body * {
+        filter: invert(100%);
+    }
+*/
+    /* editor */
+    /* ==========================================================================
+    [data-name="title-input"],
+    div[class*="editor-toolbarTitleContainer"],
+    h3[class*="editor-toolbarTitle"],
+    body {
+        filter: invert(100%);
+        background-color: rgb(52, 52, 52);
+        background: rgb(52, 52, 52);
+        color: rgb(204, 204, 204);
+    }
+    .footer-footerWrapper_f1xwq9iv,
+    div[aria-label="Document tools"] {
+        background: #000;
+    }
+    .toolbar-wordCounter_f1vdi67g {
+        background: #000;
+    }
+    /* editor menus */
+    /* ========================================================================== */
+    div[class*="-dropdown-list"] {
+        background: #181818;
+        border-color: #484848;
+    }
+
+    [class*="-button-flat"]:not([data-disabled="true"])[data-hovered="false"] {
+        color: #949494;
+    }
+
+    [class*="-button-flat"]:not([data-disabled="true"])[data-hovered="true"] {
+        background: #242424;
+    }
+
+    /* document selector navigation */
+    /* ========================================================================== */
+    [data-name="editor-main-menu"] {
+        background-color: #181818;
+    }
+
+    /* document selector main panel */
+    /* ========================================================================== */
+    [class*="-main"] > [class*="-view"] {
+        background-color: rgb(52, 52, 52);
+    }
+
+
+    /* document selector main panel buttons */
+    /* ========================================================================== */
+    [data-name="new-doc-item"] > [class*="-actions"],
+    [class*="-itemWrapper"] > [class*="-actions"] {
+        background-color: #181818;
+    }
+
+    [data-name="new-doc-item"],
+    [data-name="doc-item"] {
+        background-color: #181818;
+        color: rgb(204, 204, 204);
+    }
+}

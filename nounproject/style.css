@@ -1,0 +1,32 @@
+@-moz-document domain("thenounproject.com") {
+    .cukSgL,
+    .cTgNn,
+    .dNQaCW {
+        background: #222;
+        color: #efefef;
+        border-color: #222;
+        * {
+            color: #efefef;
+        }
+    }
+    .evhZwc,
+    .cUvreI,
+    .gZBzFM .Control__ControlStyled-sc-1cppquq-0,
+    .fFjkwk,
+    .bkUEwc,
+    .ghoKGY,
+    .hDStUi {
+        background: #000;
+        color: #efefef;
+        border-color: #000;
+        * {
+            color: #efefef;
+        }
+    }
+    .gVIIeo * {
+        color: #efefef;
+    }
+    img {
+        filter: invert(100%);
+    }
+}
