@@ -1,125 +1,190 @@
-/*
-urls on the domain: wikipedia.org
-*/
+/* ==UserStyle==
+@name           wikipedia - wikiafterdark
+@namespace      github.com/xero/stylez
+@author         xeR0
+@description    dark theme for wikipedia
+@version        2026.02.24
+@license        CC-BY-4.0
+==/UserStyle== */
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("wikipedia.org") {
+  * {
+    background-color: transparent !important;
+    color: #bcbcbc !important;
+  }
+  body,
+  div,
+  form,
+  table,
+  tbody,
+  tr,
+  td,
+  fieldset,
+  ul,
+  li,
+  a,
+  #content,
+  #bodyContent {
+    background-color: #111 !important;
+    background-image: none !important;
+  }
+  input,
+  select,
+  button,
+  checkbox {
+    -moz-appearance: none !important;
+    appearance: none !important;
+    border: 1px white solid !important;
+    outline: none !important;
+    background-color: #000 !important;
+  }
+  #simpleSearch {
+    border: none !important;
+  }
+  #content {
+    font-family: trebuchet, arial !important;
+    font-size: 12pt !important;
+    border: 0 !important;
+  }
+  div#siteNotice {
+    display: none !important;
+  }
+  p {
+    border: none !important;
+  }
+  a {
+    color: lightgrey !important;
+  }
+  a:visited {
+    font-weight: bold !important;
+    opacity: 0.65 !important;
+  }
+  a:link {
+    color: white !important;
+  }
+  h2 {
+    border-bottom: #ccc 1px solid !important;
+    font-size: 120% !important;
+  }
+  h2 > span {
+    color: white !important;
+  }
+  h2 > span > span {
+    color: white !important;
+    font-size: 100% !important;
+  }
+  fieldset {
+    border-color: #ddd !important;
+  }
+  #bodyContent ul {
+    list-style-image: none !important;
+    list-style-type: disc !important;
+  }
+  #toc ul {
+    list-style-type: none !important;
+  }
+  .thumb {
+    border-color: #000 !important;
+  }
+  #searchButton {
+    display: none !important;
+  }
+  div.vectorTabs,
+  div.vectorTabs ul,
+  div.vectorTabs ul > li,
+  div.vectorTabs ul > li > a {
+    background-color: #111 !important;
+    background-image: none !important;
+    border: none !important;
+  }
+  #right-navigation > .vectorMenu,
+  #ca-watch {
+    display: none !important;
+  }
 
-*{
-   background-color: transparent !important;
-   color: #bcbcbc !important;
-}
-body, div, form, table, tbody, tr, td, fieldset, ul, li, a,
-#content, #bodyContent{
-   background-color: #333 !important;
-   background-image: none !important;
-}
-input, select, button, checkbox{
-   -moz-appearance: none !important;
-   border: 1px white solid !important;
-   outline: none !important;
-   background-color: #333 !important;
-}
-#simpleSearch{
-   border: none !important;
-}
-#content{
-   font-family: trebuchet, arial !important; 
-   font-size: 12pt !important;
-   border: 0 !important;
-}
-div#siteNotice{
-   display:none !important;
-}
-p{
-   border: none !important;
-}
-a{
-   color: lightgrey !important;
-}
-a:visited{
-   font-weight: bold !important;
-   opacity: 0.65 !important;
-}
-a:link{
-   color: white !important;
-}
-h2{
-   border-bottom: #ccc 1px solid !important;
-   font-size: 120% !important;
-}
-h2 > span{
-   color: white !important;
-}
-h2 > span > span{
-   color: white !important;
-   font-size: 100% !important;
-}
-fieldset{
-   border-color: #ddd !important;
-}
-#bodyContent ul{
-   list-style-image: none !important;
-   list-style-type: disc !important;
-}
-#toc ul{
-   list-style-type: none !important;
-}
-.thumb{
-   border-color: #333 !important;
-}
-#searchButton{
-   display: none !important;
-}
-div.vectorTabs,
-div.vectorTabs ul,
-div.vectorTabs ul > li,
-div.vectorTabs ul > li > a{
-   background-color: #333 !important;
-   background-image: none !important;
-   border: none !important;
-}
-#right-navigation > .vectorMenu,
-#ca-watch{
-   display: none !important;
-}
-
-div.vectorTabs ul > li > a > span{
-   padding: 0 !important;
-}
-div.vectorTabs ul > li > a{
-  outline: 1px #888 solid !important;
-  margin: 0 0.5em;
-  height: auto !important;
-  font-weight: normal !important;
-}
-div.vectorTabs ul > li > a:hover{
-   text-decoration: none !important;
-   outline: 1px #ccc solid !important;
-}
-#preftoc > li{
-   outline: 1px #ccc solid !important;
-   border-bottom: 5px #ccc solid !important;
-}
-.successbox{
-   border-color: white !important;
-}
-#search .search-types ul,
-#search .results-info ul{
-   list-style-type: none !important;
-}
-#p-logo a {
-   background: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png) no-repeat !important;
-   position: absolute !important;
-   clip: rect(0, 135px, 115px, 0) !important;
-   height: 115px !important;
-   overflow: hidden !important;
-   margin-top: 30px !important;
-}
-img{
-   background-color: #fdfdfd !important;
-}
-img.tex{
-   padding: 5px !important;
-}
-span.tex{
-   border: 1px white solid !important;
-   padding: 5px !important;
+  div.vectorTabs ul > li > a > span {
+    padding: 0 !important;
+  }
+  div.vectorTabs ul > li > a {
+    outline: 1px #888 solid !important;
+    margin: 0 0.5em;
+    height: auto !important;
+    font-weight: normal !important;
+  }
+  div.vectorTabs ul > li > a:hover {
+    text-decoration: none !important;
+    outline: 1px #ccc solid !important;
+  }
+  #preftoc > li {
+    outline: 1px #ccc solid !important;
+    border-bottom: 5px #ccc solid !important;
+  }
+  .successbox {
+    border-color: white !important;
+  }
+  #search .search-types ul,
+  #search .results-info ul {
+    list-style-type: none !important;
+  }
+  #p-logo a {
+    background: url(http://upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png)
+      no-repeat !important;
+    position: absolute !important;
+    clip: rect(0, 135px, 115px, 0) !important;
+    height: 115px !important;
+    overflow: hidden !important;
+    margin-top: 30px !important;
+  }
+  img {
+    background-color: #fdfdfd !important;
+  }
+  img.tex {
+    padding: 5px !important;
+  }
+  span.tex {
+    border: 1px white solid !important;
+    padding: 5px !important;
+  }
+  #ca-talk > a {
+    border-bottom: 1px solid #efefef;
+  }
+  body,
+  div,
+  form,
+  table,
+  tbody,
+  tr,
+  td,
+  fieldset,
+  ul,
+  li,
+  a,
+  #content,
+  #bodyContent {
+    background: transparent !important;
+  }
+  body
+    > div.mw-mmv-wrapper
+    > div
+    > div.mw-mmv-pre-image.mw-no-invert
+    > a.cdx-button.cdx-button--fake-button.cdx-button--fake-button--enabled.cdx-button--icon-only.mw-mmv-button.mw-mmv-download-button,
+  body
+    > div.mw-mmv-wrapper
+    > div
+    > div.mw-mmv-pre-image.mw-no-invert
+    > a.cdx-button.cdx-button--fake-button.cdx-button--fake-button--enabled.cdx-button--icon-only.mw-mmv-button.mw-mmv-reuse-button,
+  body > div.mw-mmv-wrapper > div > div.mw-mmv-pre-image.mw-no-invert > button {
+    background-color: #000 !important;
+    border-color: #333 !important;
+    .mw-mmv-icon {
+      background-color: #fff !important;
+    }
+  }
+  #vector-appearance-dropdown-label
+    > span.vector-icon.mw-ui-icon-appearance.mw-ui-icon-wikimedia-appearance,
+  #p-search
+    > a
+    > span.vector-icon.mw-ui-icon-search.mw-ui-icon-wikimedia-search {
+    background: #888 !important;
+  }
 }
